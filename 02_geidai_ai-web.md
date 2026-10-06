@@ -93,7 +93,7 @@ Eldagsen の場合、受賞を辞退するという行為そのものが、**作
 
 ### ボタンの手前・奥・向こう
 
-![](./aibook/figures/fig01-1_button_zones.svg)
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/fig01-1_button_zones.svg)
 
 AIを使った制作には、三つの段階があります。
 
@@ -132,9 +132,30 @@ Stable Diffusion の初期モデルは、約 **23億組** の画像と説明文�
 
 ### 生成のしくみ (1) - 言語モデル
 
-![](./aibook/figures/fig01-2_next_word_probability.svg)
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/fig01-2_next_word_probability.svg)
 
 ChatGPT のような言語モデルは、与えられた文章に続く **「次の言葉」を確率で予測** します。そのなかから一つを選んで文章に加え、また次の言葉を予測します。この単純な手順を何千回と繰り返すことで、長い文章が紡がれていきます。
+
+### 体験してみよう: Transformer Explainer
+
+[![](https://img.youtube.com/vi/TFUc41G2ikY/maxresdefault.jpg)](https://poloclub.github.io/transformer-explainer/)
+
+<small>画像出典: [Transformer Explainer デモ動画 (YouTube)](https://youtu.be/TFUc41G2ikY) (Georgia Institute of Technology)</small>
+
+[Transformer Explainer](https://poloclub.github.io/transformer-explainer/) は、ジョージア工科大学のチームが開発した、言語モデルのしくみを可視化するツールです。ブラウザ上で実際の言語モデル (**GPT-2**) が動いていて、好きな文章を入力すると、内部でどのような計算が行われ、**次に来る言葉の候補とその確率** がどのように決まるのかを、リアルタイムに見ることができます。
+
+画面は、大きく次のような流れで構成されています。
+
+* **Embedding**: 入力した文章を単語 (トークン) に分け、数値のベクトルに変換する
+* **Self-Attention**: 各単語が、文中の他のどの単語に注目しているかを計算する。文脈に応じて、同じ単語でも意味の重みが変わる
+* **Probabilities**: 最後に、次に来る言葉の候補それぞれに確率を割り当てる
+
+画面上部の **Temperature** (温度) や **Top-k / Top-p** の設定を変えると、選ばれる言葉の傾向が変わります。Temperature を下げると、最も確率の高い、ありふれた言葉ばかりが選ばれるようになります。反対に Temperature を上げると、確率の低い「裾野」の言葉も選ばれるようになり、意外な展開や文章の破綻が増えていきます。このあと説明する **「平均への引力」** を、自分の手で確かめてみましょう。
+
+* [Transformer Explainer](https://poloclub.github.io/transformer-explainer/)
+* [デモ動画 (YouTube)](https://youtu.be/TFUc41G2ikY)
+* [GitHub リポジトリ](https://github.com/poloclub/transformer-explainer)
+* [論文: Transformer Explainer (arXiv)](https://arxiv.org/abs/2408.04619)
 
 ### 生成のしくみ (2) - 拡散モデル
 
@@ -143,6 +164,26 @@ ChatGPT のような言語モデルは、与えられた文章に続く **「次
 **シード値** とは、この出発点となるノイズの模様を決める数値のことです。同じプロンプトでもシード値が違えば、まったく別の画像が現れます。ボタンを押すことは、**シード値というサイコロを振る** ことに近いと言えます。音楽や動画の生成も、基本的にはこれらの考え方の延長にあります。
 
 * [拡散モデル (Wikipedia)](https://ja.wikipedia.org/wiki/%E6%8B%A1%E6%95%A3%E3%83%A2%E3%83%87%E3%83%AB)
+
+### 体験してみよう: Diffusion Explainer
+
+[![](https://img.youtube.com/vi/Zg4gxdIWDds/maxresdefault.jpg)](https://poloclub.github.io/diffusion-explainer/)
+
+<small>画像出典: [Diffusion Explainer デモ動画 (YouTube)](https://youtu.be/Zg4gxdIWDds) (Georgia Institute of Technology)</small>
+
+[Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/) は、Transformer Explainer と同じジョージア工科大学のチームが開発した、**Stable Diffusion** がプロンプトから画像を生成する過程を可視化するツールです。ブラウザで開くだけで、インストールやプログラミングの知識、GPU がなくても、用意されたプロンプトから選んで試すことができます。
+
+画面は、大きく次のような流れで構成されています。
+
+* **Text Representation Generator**: プロンプトの文章を、画像生成の手がかりとなる数値に変換する
+* **Image Representation Refiner**: ランダムなノイズから出発し、手がかりをもとにノイズを少しずつ取り除いていく。**Timestep** のスライダーを動かすと、砂嵐のなかから像が浮かび上がる過程を1ステップずつ見ることができる
+
+**Random Seed** (シード値) を変えると、同じプロンプトでもまったく別の画像が生成されます。上で説明した「ボタンを押すことは、シード値というサイコロを振ることに近い」ということを、実際に確かめてみましょう。また **Guidance Scale** を変えると、生成される画像がプロンプトにどれだけ忠実に従うかが変わります。プロンプトの言葉を少しだけ変えて、生成される2つの画像を比べることもできます。
+
+* [Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/)
+* [デモ動画 (YouTube)](https://youtu.be/Zg4gxdIWDds)
+* [GitHub リポジトリ](https://github.com/poloclub/diffusion-explainer)
+* [論文: Diffusion Explainer (arXiv)](https://arxiv.org/abs/2305.03509)
 
 ### 平均への引力 (1) - 確率の高い方へ
 
@@ -190,7 +231,7 @@ AIは奇妙な誤りも犯します。初期の画像生成AIが描く人間の�
 | OS | インストール手順 |
 | :--- | :--- |
 | **Windows** | ダウンロードしたインストーラを実行（設定はデフォルトのままで OK） |
-| **macOS** | zip を展開し、`Visual Studio Code.app` を「アプリケーション」フォルダへ移動 |
+| **macOS** | zip を展開し、Visual Studio Code.app を「アプリケーション」フォルダへ移動 |
 
 メニューは最初は英語で表示されます。ここでも英語のUI名 (Settings, Accounts など) で説明します。
 
@@ -200,7 +241,7 @@ AIは奇妙な誤りも犯します。初期の画像生成AIが描く人間の�
 
 <small>画像出典: [GitHub Docs](https://docs.github.com/) (© GitHub, CC BY 4.0)</small>
 
-[https://github.com/](https://github.com/) を開いて **Sign up** から登録します (Google アカウントでも登録可能)。メールアドレス・パスワード・ユーザー名・国/地域を入力し、パズルを解いたら、メールに届く確認コードを入力して **メール認証を完了** させます。認証状態は `Settings > Emails` で確認でき、Unverified になっている場合は確認メールを再送できます。
+[https://github.com/](https://github.com/) を開いて **Sign up** から登録します (Google アカウントでも登録可能)。メールアドレス・パスワード・ユーザー名・国/地域を入力し、パズルを解いたら、メールに届く確認コードを入力して **メール認証を完了** させます。認証状態は Settings > Emails で確認でき、Unverified になっている場合は確認メールを再送できます。
 
 ### 3. VS Code で AI 機能を有効にする
 
@@ -229,9 +270,9 @@ VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボ
 
 ### 5. Markdown で補完を有効にする
 
-今回はプログラムではなく **文章** を書くので、Markdown ファイル (`.md`) を使います。Copilot の補完は、初期設定では **Markdown やプレーンテキストでは無効** になっている場合があります。`.md` ファイルを開いた状態で右下ステータスバーの Copilot アイコンをクリックし、メニューから **Markdown** での補完を有効にしてください。
+今回はプログラムではなく **文章** を書くので、Markdown ファイル (.md) を使います。Copilot の補完は、初期設定では **Markdown やプレーンテキストでは無効** になっている場合があります。.md ファイルを開いた状態で右下ステータスバーの Copilot アイコンをクリックし、メニューから **Markdown** での補完を有効にしてください。
 
-設定ファイル (`settings.json`) で指定する場合は、以下のように記述します。
+設定ファイル (settings.json) で指定する場合は、以下のように記述します。
 
 ```json
 "github.copilot.enable": {
@@ -247,12 +288,12 @@ VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボ
 
 <small>画像出典: [Visual Studio Code Docs](https://code.visualstudio.com/docs) (© Microsoft, CC BY 3.0 US)</small>
 
-`File > New Text File` で新規ファイルを作り、`story.md` などの名前で保存します。文章を書き始めると、続きの文章が **薄いグレー (ゴーストテキスト)** で提案されます (図はプログラムの例ですが、文章でも同じようにグレーの文字で続きが提案されます)。
+File > New Text File で新規ファイルを作り、story.md などの名前で保存します。文章を書き始めると、続きの文章が **薄いグレー (ゴーストテキスト)** で提案されます (図はプログラムの例ですが、文章でも同じようにグレーの文字で続きが提案されます)。
 
 * <kbd>Tab</kbd>: **提案を確定**
 * <kbd>Esc</kbd>: **提案を破棄**
 
-試しに `# 雨の日の図書館` と見出しを書き、1行目を書き始めて少し待ってみましょう。
+試しに # 雨の日の図書館 と見出しを書き、1行目を書き始めて少し待ってみましょう。
 
 ### 補完をコントロールする
 
@@ -294,7 +335,7 @@ VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボ
 
 自分の文章を安心して書くために、初期設定と変更方法を把握しておきましょう。Copilot Free の初期設定では、テレメトリ (製品改善のためのデータ送信) が **有効**、公開コードと一致する提案 (Public code suggestions) が **許可** になっています。より厳格に変更したい場合は、以下のように設定します。
 
-* **VS Code 設定**: `telemetry.telemetryLevel` を検索して `off` に設定
+* **VS Code 設定**: telemetry.telemetryLevel を検索して off に設定
 * **GitHub 設定**: [https://github.com/settings/copilot](https://github.com/settings/copilot) を開き、
   * 「Suggestions matching public code」を **Block** に変更
   * 「Allow GitHub to use my data for AI model training」を **Disabled** に変更
@@ -313,7 +354,7 @@ VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボ
 * **別のアカウントでサインインしてしまった**
   * Accounts メニューから **Sign out** して正しいアカウントで入り直す
 * **文章の補完が出ない**
-  * ファイルを `.md` 付きで保存しているか確認
+  * ファイルを .md 付きで保存しているか確認
   * Markdown での補完が有効になっているか確認 (手順5)
 
 ## 関連リンク
@@ -342,7 +383,7 @@ VS Code と GitHub Copilot の **テキスト補完** を使って、レポー�
 
 ### 進め方
 
-1. `report.md` という名前で新しいファイルを作り、書き出しの一文を入力する
+1. report.md という名前で新しいファイルを作り、書き出しの一文を入力する
 2. 少し待って、グレーの文字で提案される続きを読む
 3. 提案を **全部確定する / 単語ごとに確定する / 破棄して自分で書く** を選ぶ
    * <kbd>Tab</kbd>: 確定 / <kbd>Ctrl</kbd>(<kbd>⌘</kbd>) + <kbd>→</kbd>: 単語ごとに確定 / <kbd>Esc</kbd>: 破棄
@@ -352,8 +393,8 @@ VS Code と GitHub Copilot の **テキスト補完** を使って、レポー�
 
 ### 提出方法
 
-* **提出物**: テキストファイル (`report.md`)
-  * ファイル名は `学籍番号_氏名.md` に変更して提出
+* **提出物**: テキストファイル (report.md)
+  * ファイル名は 学籍番号_氏名.md に変更して提出
 * **提出先**: (提出先を記入)
 * **締切**: 次回の授業の前日まで
 
@@ -381,3 +422,5 @@ VS Code と GitHub Copilot の **テキスト補完** を使って、レポー�
 * [Ouyang, Long, et al. "Training Language Models to Follow Instructions with Human Feedback."](https://arxiv.org/abs/2203.02155) NeurIPS 2022.
 * [Kirk, Robert, et al. "Understanding the Effects of RLHF on LLM Generalisation and Diversity."](https://arxiv.org/abs/2310.06452) ICLR 2024.
 * [Midjourney. "Raw."](https://docs.midjourney.com/docs/style)
+* [Cho, Aeree, et al. "Transformer Explainer: Learning LLM Transformers with Interactive Visual Explanation and Experimentation."](https://arxiv.org/abs/2408.04619) CHI 2026.
+* [Lee, Seongmin, et al. "Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion."](https://arxiv.org/abs/2305.03509) 2023.

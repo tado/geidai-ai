@@ -244,6 +244,31 @@ paginate: true
 
 ---
 
+## 体験してみよう: Transformer Explainer
+
+[![height:300](https://img.youtube.com/vi/TFUc41G2ikY/maxresdefault.jpg)](https://poloclub.github.io/transformer-explainer/)
+
+- ブラウザ上で実際の言語モデル (**GPT-2**) を動かし、内部のしくみを可視化するツール
+  - 好きな文章を入力すると、**次に来る言葉の候補と確率** がリアルタイムに表示される
+  - **Temperature** (温度) や **Top-k / Top-p** を変えると、選ばれる言葉の「ありふれ具合」が変わる
+
+<!-- _footer: '[Transformer Explainer](https://poloclub.github.io/transformer-explainer/) / [デモ動画 (YouTube)](https://youtu.be/TFUc41G2ikY) / [GitHub (MIT License)](https://github.com/poloclub/transformer-explainer) / Georgia Institute of Technology' -->
+
+---
+
+## Transformer Explainer で見えること
+
+- **Embedding**: 入力した文章を単語 (トークン) に分け、数値のベクトルに変換する
+- **Self-Attention**: 各単語が、文中の他のどの単語に注目しているかを計算する
+  - 文脈に応じて、同じ単語でも意味の重みが変わる
+- **Probabilities**: 最後に、次に来る言葉の候補それぞれに確率を割り当てる
+- 👉 **試してみよう**
+  - Temperature を下げる → 最も確率の高い、ありふれた言葉ばかりが選ばれる
+  - Temperature を上げる → 確率の低い「裾野」の言葉も選ばれ、意外な展開や破綻が増える
+  - = **「平均への引力」** を自分の手で確かめる
+
+---
+
 ## 生成のしくみ (2) - 拡散モデル
 
 - 画像生成AIで広く使われている方式 ([Rombach et al. 2022](https://arxiv.org/abs/2112.10752))
@@ -256,6 +281,30 @@ paginate: true
 - 音楽や動画の生成も、これらの考え方の延長にある
 
 <!-- _footer: '[拡散モデルの解説 (Wikipedia)](https://ja.wikipedia.org/wiki/%E6%8B%A1%E6%95%A3%E3%83%A2%E3%83%87%E3%83%AB)' -->
+
+---
+
+## 体験してみよう: Diffusion Explainer
+
+[![height:300](https://img.youtube.com/vi/Zg4gxdIWDds/maxresdefault.jpg)](https://poloclub.github.io/diffusion-explainer/)
+
+- **Stable Diffusion** がプロンプトから画像を生成する過程を、ブラウザ上で可視化するツール
+  - インストール不要、用意されたプロンプトから選んで試せる
+  - Transformer Explainer と同じ、ジョージア工科大学のチームが開発
+
+<!-- _footer: '[Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/) / [デモ動画 (YouTube)](https://youtu.be/Zg4gxdIWDds) / [GitHub (MIT License)](https://github.com/poloclub/diffusion-explainer) / Georgia Institute of Technology' -->
+
+---
+
+## Diffusion Explainer で見えること
+
+- **Text Representation Generator**: プロンプトの文章を、画像生成の手がかりとなる数値に変換する
+- **Image Representation Refiner**: ランダムなノイズから出発し、手がかりをもとにノイズを少しずつ取り除く
+  - **Timestep** のスライダーを動かすと、砂嵐から像が浮かび上がる過程を1ステップずつ見られる
+- 👉 **試してみよう**
+  - **Random Seed** を変える → 同じプロンプトでも、まったく別の画像になる (= サイコロを振る)
+  - **Guidance Scale** を変える → プロンプトにどれだけ忠実に従うかが変わる
+  - プロンプトの言葉を少し変えて、2つの画像を比べる
 
 ---
 
@@ -586,3 +635,5 @@ VS Code を起動し、次のどちらかをクリック（図の赤枠参照）
 - [Ouyang, Long, et al. "Training Language Models to Follow Instructions with Human Feedback."](https://arxiv.org/abs/2203.02155) NeurIPS 2022.
 - [Kirk, Robert, et al. "Understanding the Effects of RLHF on LLM Generalisation and Diversity."](https://arxiv.org/abs/2310.06452) ICLR 2024.
 - [Midjourney. "Raw."](https://docs.midjourney.com/docs/style)
+- [Cho, Aeree, et al. "Transformer Explainer: Learning LLM Transformers with Interactive Visual Explanation and Experimentation."](https://arxiv.org/abs/2408.04619) CHI 2026.
+- [Lee, Seongmin, et al. "Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion."](https://arxiv.org/abs/2305.03509) 2023.
