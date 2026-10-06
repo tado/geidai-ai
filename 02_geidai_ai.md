@@ -159,7 +159,7 @@ paginate: true
 
 ## ボタンの手前・奥・向こう
 
-![height:330](./aibook/figures/fig01-1_button_zones.svg)
+![height:330](https://raw.githubusercontent.com/tado/geidai-ai/main/img/fig01-1_button_zones.svg)
 
 - **手前**: 構想し、言葉にし、素材を選び、設定を決める
 - **奥**: AIが像や言葉を生成する
@@ -237,7 +237,7 @@ paginate: true
 
 ## 生成のしくみ (1) - 言語モデル
 
-![height:340](./aibook/figures/fig01-2_next_word_probability.svg)
+![height:340](https://raw.githubusercontent.com/tado/geidai-ai/main/img/fig01-2_next_word_probability.svg)
 
 - 与えられた文章に続く **「次の言葉」を確率で予測**
 - ひとつ選んで文章に加え、また次の言葉を予測 → 何千回と繰り返して長い文章に
