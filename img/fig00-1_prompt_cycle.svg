@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 850" width="800" height="850" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F5D8A"/>
+    </marker>
+    <marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="850" fill="#FFFFFF"/>
+
+  <!-- (a) 二つの態度と、そのあいだの往復 -->
+  <text x="20" y="34" font-size="17" font-weight="bold" fill="#222">(a) 二つの態度と、そのあいだの往復</text>
+
+  <rect x="110" y="54" width="280" height="92" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="250" y="86" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">言葉を投げて、機械に想像させる</text>
+  <text x="250" y="112" font-size="13.5" fill="#444" text-anchor="middle">漠然とした言葉を投げ、</text>
+  <text x="250" y="131" font-size="13.5" fill="#444" text-anchor="middle">返ってきたものを受け取る</text>
+
+  <rect x="410" y="54" width="280" height="92" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="550" y="86" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">内なるイメージを言葉に翻訳する</text>
+  <text x="550" y="112" font-size="13.5" fill="#444" text-anchor="middle">頭のなかで見えている・聴こえている</text>
+  <text x="550" y="131" font-size="13.5" fill="#444" text-anchor="middle">ものを精密に言語化する</text>
+
+  <line x1="290" y1="168" x2="510" y2="168" stroke="#888" stroke-width="1.5" marker-start="url(#arr-gray)" marker-end="url(#arr-gray)"/>
+  <text x="250" y="173" font-size="15" fill="#666" text-anchor="middle">漠然</text>
+  <text x="550" y="173" font-size="15" fill="#666" text-anchor="middle">精密</text>
+
+  <line x1="250" y1="186" x2="250" y2="400" stroke="#BBB" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="550" y1="186" x2="550" y2="400" stroke="#BBB" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <circle cx="250" cy="200" r="5.5" fill="#2F5D8A"/>
+  <g stroke="#2F5D8A" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <line x1="250" y1="200" x2="548" y2="254" marker-end="url(#arr)"/>
+    <line x1="550" y1="256" x2="252" y2="309" marker-end="url(#arr)"/>
+    <line x1="250" y1="311" x2="548" y2="364" marker-end="url(#arr)"/>
+    <line x1="550" y1="366" x2="404" y2="418" marker-end="url(#arr)"/>
+  </g>
+
+  <text x="238" y="205" font-size="14" fill="#222" text-anchor="end">漠然とした言葉から始める</text>
+
+  <text x="564" y="242" font-size="13" fill="#555">「あ、こういう方向もありえたのか」</text>
+  <text x="564" y="261" font-size="14" fill="#222">示唆によってイメージが鋭くなり、</text>
+  <text x="564" y="279" font-size="14" fill="#222">プロンプトはより精密に</text>
+
+  <text x="238" y="305" font-size="14" fill="#222" text-anchor="end">結果がまた新たな</text>
+  <text x="238" y="323" font-size="14" fill="#222" text-anchor="end">漠然さを呼び起こす</text>
+
+  <text x="564" y="370" font-size="14" fill="#222">往復を何度も重ねる</text>
+
+  <text x="400" y="448" font-size="16" font-weight="bold" fill="#2F5D8A" text-anchor="middle">当初は想像もしなかった場所へ</text>
+
+  <line x1="20" y1="482" x2="780" y2="482" stroke="#DDD" stroke-width="1"/>
+
+  <!-- (b) 実践のサイクル -->
+  <text x="20" y="520" font-size="17" font-weight="bold" fill="#222">(b) 実践のサイクル</text>
+
+  <g stroke="#2F5D8A" stroke-width="2.5" fill="none">
+    <path d="M 460 586.1 A 120 120 0 0 1 519.5 700.5" marker-end="url(#arr)"/>
+    <path d="M 468.8 788.3 A 120 120 0 0 1 331.2 788.3" marker-end="url(#arr)"/>
+    <path d="M 280.5 700.5 A 120 120 0 0 1 340 586.1" marker-end="url(#arr)"/>
+  </g>
+
+  <rect x="325" y="544" width="150" height="52" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="400" y="576" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">生成する</text>
+
+  <rect x="429" y="724" width="150" height="52" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="504" y="756" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">見きわめる</text>
+  <text x="592" y="745" font-size="14" fill="#444">「悪くないが何か違う」</text>
+  <text x="592" y="765" font-size="14" fill="#444">「ここは良い、ここは違う」</text>
+
+  <rect x="221" y="724" width="150" height="52" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="296" y="756" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">手を加える</text>
+  <text x="208" y="727" font-size="14" fill="#444" text-anchor="end">言葉を足す・引く</text>
+  <text x="208" y="746" font-size="14" fill="#444" text-anchor="end">シード値を変える</text>
+  <text x="208" y="765" font-size="14" fill="#444" text-anchor="end">参考素材を加える</text>
+  <text x="208" y="784" font-size="14" fill="#444" text-anchor="end">スタイル指定を変える</text>
+
+  <text x="400" y="672" font-size="15" fill="#666" text-anchor="middle">何十回、</text>
+  <text x="400" y="692" font-size="15" fill="#666" text-anchor="middle">何百回と</text>
+  <text x="400" y="712" font-size="15" fill="#666" text-anchor="middle">繰り返す</text>
+</svg>

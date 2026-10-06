@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" width="800" height="660" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F5D8A"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="660" fill="#FFFFFF"/>
+
+  <!-- 列見出し -->
+  <text x="140" y="36" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">ボタンの手前</text>
+  <text x="140" y="56" font-size="13" fill="#666" text-anchor="middle">何を渡すか</text>
+  <text x="400" y="36" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">ボタンの奥</text>
+  <text x="400" y="56" font-size="13" fill="#666" text-anchor="middle">機械の内側に手を入れる</text>
+  <text x="660" y="36" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">ボタンの向こう</text>
+  <text x="660" y="56" font-size="13" fill="#666" text-anchor="middle">受け取ったものをどうするか</text>
+
+  <!-- 箱 -->
+  <rect x="30" y="72" width="220" height="340" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <rect x="290" y="72" width="220" height="340" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <rect x="550" y="72" width="220" height="340" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+
+  <!-- 手前 -->
+  <text x="140" y="104" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">言葉を渡す</text>
+  <text x="140" y="123" font-size="12" fill="#555" text-anchor="middle">K Allado-McDowell</text>
+  <text x="140" y="139" font-size="12" fill="#555" text-anchor="middle">『Pharmako-AI』</text>
+  <text x="140" y="178" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">声を渡す</text>
+  <text x="140" y="197" font-size="12" fill="#555" text-anchor="middle">Holly Herndon</text>
+  <text x="140" y="213" font-size="12" fill="#555" text-anchor="middle">『PROTO』とSpawn</text>
+  <text x="140" y="252" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">自分のデータで育てる</text>
+  <text x="140" y="271" font-size="12" fill="#555" text-anchor="middle">Anna Ridler</text>
+  <text x="140" y="287" font-size="12" fill="#555" text-anchor="middle">「Myriad (Tulips)」</text>
+  <text x="140" y="303" font-size="12" fill="#555" text-anchor="middle">「Mosaic Virus」</text>
+  <text x="140" y="342" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">集め方から設計する</text>
+  <text x="140" y="361" font-size="12" fill="#555" text-anchor="middle">Holly Herndon &amp; Mat Dryhurst</text>
+  <text x="140" y="377" font-size="12" fill="#555" text-anchor="middle">「The Call」</text>
+
+  <!-- 奥 -->
+  <text x="400" y="112" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">潜在空間を歩く</text>
+  <text x="400" y="131" font-size="12" fill="#555" text-anchor="middle">Mario Klingemann</text>
+  <text x="400" y="147" font-size="12" fill="#555" text-anchor="middle">「Memories of Passersby I」</text>
+  <text x="400" y="163" font-size="12" fill="#555" text-anchor="middle">Refik Anadol「Unsupervised」</text>
+  <text x="400" y="222" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">モデルを曲げる</text>
+  <text x="400" y="241" font-size="12" fill="#555" text-anchor="middle">Terence Broad</text>
+  <text x="400" y="257" font-size="12" fill="#555" text-anchor="middle">「network bending」</text>
+  <text x="400" y="273" font-size="12" fill="#555" text-anchor="middle">「(un)stable equilibrium」</text>
+  <text x="400" y="332" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">機械の目を借りる</text>
+  <text x="400" y="351" font-size="12" fill="#555" text-anchor="middle">Alexander Mordvintsevら</text>
+  <text x="400" y="367" font-size="12" fill="#555" text-anchor="middle">「DeepDream」</text>
+  <text x="400" y="383" font-size="12" fill="#555" text-anchor="middle">Memo Akten「Learning to See」</text>
+
+  <!-- 向こう -->
+  <text x="660" y="104" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">選ぶ</text>
+  <text x="660" y="123" font-size="12" fill="#555" text-anchor="middle">Paul Trillo</text>
+  <text x="660" y="139" font-size="12" fill="#555" text-anchor="middle">「The Hardest Part」</text>
+  <text x="660" y="172" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">破綻を拾う</text>
+  <text x="660" y="191" font-size="12" fill="#555" text-anchor="middle">Botnik Studios</text>
+  <text x="660" y="207" font-size="12" fill="#555" text-anchor="middle">『ハリー・ポッター』の続編の一章</text>
+  <text x="660" y="240" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">組み立てる</text>
+  <text x="660" y="259" font-size="12" fill="#555" text-anchor="middle">Rootport</text>
+  <text x="660" y="275" font-size="12" fill="#555" text-anchor="middle">『サイバーパンク桃太郎』</text>
+  <text x="660" y="291" font-size="12" fill="#555" text-anchor="middle">Kris Kashtanova</text>
+  <text x="660" y="307" font-size="12" fill="#555" text-anchor="middle">「Zarya of the Dawn」</text>
+  <text x="660" y="342" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">世に出し方を決める</text>
+  <text x="660" y="361" font-size="12" fill="#555" text-anchor="middle">Refik Anadolの大画面の展示</text>
+  <text x="660" y="377" font-size="12" fill="#555" text-anchor="middle">「The Call」の空間音響</text>
+
+  <!-- ボタンと矢印 -->
+  <line x1="252" y1="242" x2="287" y2="242" stroke="#2F5D8A" stroke-width="2.5" marker-end="url(#arr)"/>
+  <circle cx="266" cy="242" r="10" fill="#2F5D8A" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="512" y1="242" x2="547" y2="242" stroke="#2F5D8A" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- 往復 -->
+  <path d="M 660 414 C 660 470, 140 470, 140 417" stroke="#2F5D8A" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <text x="400" y="496" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle">往復を設計する</text>
+  <text x="400" y="520" font-size="12.5" fill="#555" text-anchor="middle">交互に描く ── Sougwen Chung「Drawing Operations」</text>
+  <text x="400" y="540" font-size="12.5" fill="#555" text-anchor="middle">一曲ずつ交代する ── Qosmo「AI DJ Project」</text>
+  <text x="400" y="560" font-size="12.5" fill="#555" text-anchor="middle">その場で生成する ── RAVE、Neutone、StreamDiffusion、Lyria RealTime、ライブ・コーディング</text>
+  <text x="400" y="580" font-size="12.5" fill="#555" text-anchor="middle">時間を置き、記録する ── 『Pharmako-AI』、九段理江「影の雨」</text>
+
+  <!-- 注記 -->
+  <text x="400" y="626" font-size="12" fill="#666" text-anchor="middle">※ 実際の制作では、多くの手法が複数の段階にまたがる。</text>
+  <text x="400" y="644" font-size="12" fill="#666" text-anchor="middle">(例:Ridlerの分類作業、Klingemannの好みの学習、Rootportの素材の作りため)</text>
+</svg>

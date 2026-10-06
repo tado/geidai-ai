@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 390" width="800" height="390" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F5D8A"/>
+    </marker>
+    <marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="390" fill="#FFFFFF"/>
+
+  <!-- 上部の注記 -->
+  <text x="140" y="80" font-size="14" font-weight="bold" fill="#2F5D8A" text-anchor="middle">制作者の仕事</text>
+  <line x1="140" y1="86" x2="140" y2="104" stroke="#2F5D8A" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="660" y="80" font-size="14" font-weight="bold" fill="#2F5D8A" text-anchor="middle">制作者の仕事</text>
+  <line x1="660" y1="86" x2="660" y2="104" stroke="#2F5D8A" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="400" y="62" font-size="13" fill="#666" text-anchor="middle">熱狂する人々も拒絶する人々も</text>
+  <text x="400" y="80" font-size="13" fill="#666" text-anchor="middle">見ていたのはここだけ</text>
+  <line x1="400" y1="86" x2="400" y2="104" stroke="#888" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+
+  <!-- ボタンの手前 -->
+  <rect x="30" y="110" width="220" height="180" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="140" y="142" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">ボタンの手前</text>
+  <text x="140" y="162" font-size="13" fill="#666" text-anchor="middle">(人間)</text>
+  <text x="140" y="196" font-size="14" fill="#333" text-anchor="middle">何を作りたいかを構想する</text>
+  <text x="140" y="220" font-size="14" fill="#333" text-anchor="middle">それを言葉にする</text>
+  <text x="140" y="244" font-size="14" fill="#333" text-anchor="middle">参照する素材を選ぶ</text>
+  <text x="140" y="268" font-size="14" fill="#333" text-anchor="middle">設定を決める</text>
+
+  <!-- ボタンの奥 -->
+  <rect x="290" y="110" width="220" height="180" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="400" y="142" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">ボタンの奥</text>
+  <text x="400" y="162" font-size="13" fill="#666" text-anchor="middle">(AI)</text>
+  <text x="400" y="208" font-size="14" fill="#333" text-anchor="middle">学習した傾向をもとに</text>
+  <text x="400" y="232" font-size="14" fill="#333" text-anchor="middle">像や言葉を生成する</text>
+
+  <!-- ボタンの向こう -->
+  <rect x="550" y="110" width="220" height="180" rx="8" fill="#F4F4F4" stroke="#555" stroke-width="1.5"/>
+  <text x="660" y="142" font-size="16" font-weight="bold" fill="#222" text-anchor="middle">ボタンの向こう</text>
+  <text x="660" y="162" font-size="13" fill="#666" text-anchor="middle">(人間)</text>
+  <text x="660" y="196" font-size="14" fill="#333" text-anchor="middle">返ってきたものを吟味する</text>
+  <text x="660" y="220" font-size="14" fill="#333" text-anchor="middle">選ぶ・捨てる</text>
+  <text x="660" y="244" font-size="14" fill="#333" text-anchor="middle">手を加える</text>
+  <text x="660" y="268" font-size="14" fill="#333" text-anchor="middle">作品として世界に差し出す</text>
+
+  <!-- ボタンと矢印 -->
+  <line x1="252" y1="200" x2="287" y2="200" stroke="#2F5D8A" stroke-width="2.5" marker-end="url(#arr)"/>
+  <circle cx="266" cy="200" r="10" fill="#2F5D8A" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="270" y="182" font-size="12" fill="#2F5D8A" text-anchor="middle">ボタン</text>
+  <line x1="512" y1="200" x2="547" y2="200" stroke="#2F5D8A" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- 向こうから手前へ戻る -->
+  <path d="M 660 292 C 660 356, 140 356, 140 295" stroke="#2F5D8A" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <text x="400" y="374" font-size="13.5" fill="#444" text-anchor="middle">向こうで受け取ったものが、次の手前を変えていく</text>
+</svg>
