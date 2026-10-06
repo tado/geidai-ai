@@ -177,7 +177,7 @@ Herの世界は既にChat GPTで実現されている!
 - 学生向けに「活用指針・遵守事項・リスク」を具体的な事例つきで解説
 - 生成AIは使い方と心がけ次第で、学びの支援にも妨げにもなる
 
-![height:320](./img/01_kyoto-su-ai-guideline.png)
+![height:320](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_kyoto-su-ai-guideline.png)
 
 ---
 
@@ -288,7 +288,7 @@ Herの世界は既にChat GPTで実現されている!
 - 注意: 個人のGoogleアカウントでの契約なので、大学が契約するサービスのようなデータ保護はない
   - 個人情報・機密情報は入力しない
 
-![height:230](./img/01_gemini-students.png)
+![height:230](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_gemini-students.png)
 
 ---
 
@@ -298,7 +298,7 @@ Herの世界は既にChat GPTで実現されている!
 - この講義で使用する p5.js のコードをGPT-4o-miniを用いて対話的に生成!
 - オープンソース!
 
-![height:340](./img/01_slide10.png)
+![height:340](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_slide10.png)
 
 ---
 
@@ -322,7 +322,7 @@ Herの世界は既にChat GPTで実現されている!
 - p5.js (この講義で使用する環境) + GitHub Copilot (コード生成)
 - 設定方法などはまた後日解説します!
 
-![height:380](./img/01_slide12.png)
+![height:380](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_slide12.png)
 
 ---
 

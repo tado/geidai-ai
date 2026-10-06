@@ -1,4 +1,4 @@
-![](./img/01_slide12.png)
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_slide12.png)
 
 「人工知能と創作」初回は、まずこの講義の概要と進め方について説明していきます。
 
@@ -124,7 +124,7 @@ AIの技術的進歩は凄まじく世の中に多大な影響を与えていま
 
 ### 京都産業大学の生成AI利用ガイドライン
 
-![](./img/01_kyoto-su-ai-guideline.png)
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_kyoto-su-ai-guideline.png)
 
 芸術系以外の大学の例として、「[京都産業大学 生成AI利用ガイドライン](https://www.kyoto-su.ac.jp/torikumi/ai-basic-stance/ai-guideline/)」(2026年7月) も紹介します。学生向けに「活用指針・遵守事項・リスク」を具体的な事例つきで解説していて、とても参考になります。生成AIは使い方と心がけ次第で、学びの支援にも妨げにもなるという考え方です。
 
@@ -207,7 +207,7 @@ AIの技術的進歩は凄まじく世の中に多大な影響を与えていま
 
 ### Gemini 学割プラン
 
-![](./img/01_gemini-students.png)
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_gemini-students.png)
 
 [Google Gemini 学割プラン](https://gemini.google/jp/students/?hl=ja) を利用すると、Google AI Plus が **1年間無料** になります。
 
@@ -219,7 +219,7 @@ AIの技術的進歩は凄まじく世の中に多大な影響を与えていま
 
 ### 参考: Text-GPT-p5
 
-![](./img/01_slide10.png)
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_slide10.png)
 
 [Text-GPT-p5](https://text-gpt-p5.vercel.app/) は、この講義で使用する p5.js のコードを GPT-4o-mini を用いて対話的に生成できるツールです。オープンソースで公開されています。
 
