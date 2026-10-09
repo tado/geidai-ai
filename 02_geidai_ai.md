@@ -222,6 +222,14 @@ paginate: true
 
 ---
 
+## 補足: 人間とLLM、触れる言葉の量を比べる
+
+![height:430](https://raw.githubusercontent.com/tado/geidai-ai/main/img/fig01-3_data_scale.svg)
+
+<!-- _footer: '出典: [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) / [Meta Llama 3](https://ai.meta.com/blog/meta-llama-3/) / [BabyLM Challenge (Gilkerson et al. 2017 にもとづく推定)](https://arxiv.org/abs/2504.08165)' -->
+
+---
+
 ## 学習 - 圧縮された文化的記憶
 
 ![bg right:35% contain](https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp)

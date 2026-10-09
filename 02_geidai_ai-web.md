@@ -125,6 +125,18 @@ AIを使った制作には、三つの段階があります。
 
 なお、このグラフが示しているのはモデル自体の大きさ (パラメータ数) で、学習に使われたデータの量とは別の指標です。学習データ量の推移は、Our World in Data の「[Data points used to train notable artificial intelligence systems](https://ourworldindata.org/grapher/artificial-intelligence-number-training-datapoints)」で確認できます。
 
+#### 補足: 人間とLLM、触れる言葉の量を比べる
+
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/fig01-3_data_scale.svg)
+
+では、LLMが学習する言葉の量は、一人の人間が触れる言葉の量と比べてどれくらいなのでしょうか。上の図は、それぞれの量を円の面積で表したものです。
+
+子どもが13歳までに耳にしたり読んだりする言葉は、およそ **1億語** と推定されています ([Gilkerson et al. 2017](https://doi.org/10.1044/2016_AJSLP-15-0169) にもとづく [BabyLM Challenge](https://arxiv.org/abs/2504.08165) の基準)。一方、2025年に公開された Qwen3 は **36兆トークン** ([Qwen3 Technical Report](https://arxiv.org/abs/2505.09388))、2024年の Llama 3 は **15兆トークン** で学習されています。Qwen3 の学習データは人間の **約36万倍** にあたり、同じ縮尺で描くと、人間の円は直径わずか0.6ピクセルの「点」にしかなりません。13歳までに触れる言葉を約36万人分集めて、ようやく Qwen3 の学習データ量に届くことになります。
+
+それでも人間は、このわずかな量の言葉から言語を身につけ、自分の言葉で考え、表現します。AIの「学習」と人間の「学び」が、量の面でもまったく異なるものであることを、この図から感じ取ってみてください。
+
+<small>※ 円の面積をデータ量に比例させています。トークンと語は厳密には異なる単位です (英語では1トークン ≒ 0.75語)。</small>
+
 ### 学習 - 圧縮された文化的記憶
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp)

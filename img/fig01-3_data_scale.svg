@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 455" width="800" height="455" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <rect width="800" height="455" fill="#FFFFFF"/>
+
+  <!-- 円の面積をデータ量に比例させる (Qwen3: r=170 を基準) -->
+  <!-- Qwen3: 36兆トークン -->
+  <circle cx="230" cy="215" r="170" fill="#2F5D8A" fill-opacity="0.18" stroke="#2F5D8A" stroke-width="2"/>
+  <!-- Llama 3: 15兆トークン (r = 170 * sqrt(15/36) ≒ 109.7) -->
+  <circle cx="230" cy="275.3" r="109.7" fill="#2F5D8A" fill-opacity="0.32" stroke="#2F5D8A" stroke-width="1.5"/>
+  <!-- 人間: 約1億語 (r = 170 * sqrt(1/360000) ≒ 0.28) 実寸 -->
+  <circle cx="230" cy="384.7" r="0.28" fill="#D9442B"/>
+  <!-- 人間の位置を示すマーカー -->
+  <circle cx="230" cy="384.7" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
+  <line x1="237" y1="384.7" x2="425" y2="384.7" stroke="#D9442B" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <!-- 円の中のラベル -->
+  <text x="230" y="95" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Qwen3</text>
+  <text x="230" y="115" font-size="13" fill="#1F3F60" text-anchor="middle">36兆トークン</text>
+  <text x="230" y="250" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Llama 3</text>
+  <text x="230" y="270" font-size="13" fill="#1F3F60" text-anchor="middle">15兆トークン</text>
+
+  <!-- 右側の説明 -->
+  <text x="430" y="80" font-size="20" font-weight="bold" fill="#222">言葉の量を円の面積で比べる</text>
+
+  <rect x="430" y="108" width="14" height="14" fill="#2F5D8A" fill-opacity="0.18" stroke="#2F5D8A" stroke-width="1.5"/>
+  <text x="452" y="120" font-size="14" fill="#333">Qwen3 (2025) の学習データ: 36兆トークン</text>
+  <rect x="430" y="136" width="14" height="14" fill="#2F5D8A" fill-opacity="0.45" stroke="#2F5D8A" stroke-width="1.5"/>
+  <text x="452" y="148" font-size="14" fill="#333">Llama 3 (2024) の学習データ: 15兆トークン</text>
+
+  <text x="430" y="200" font-size="15" font-weight="bold" fill="#2F5D8A">Qwen3 は人間の 約36万倍</text>
+  <text x="430" y="226" font-size="13.5" fill="#444">人間の円は、この縮尺では直径わずか</text>
+  <text x="430" y="246" font-size="13.5" fill="#444">0.6ピクセル。ほとんど「点」にしかならない</text>
+  <text x="430" y="278" font-size="13.5" fill="#444">13歳までに触れる言葉を約36万人分</text>
+  <text x="430" y="298" font-size="13.5" fill="#444">集めて、ようやく Qwen3 の学習データ量に届く</text>
+
+  <circle cx="437" cy="384.7" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
+  <circle cx="437" cy="384.7" r="2" fill="#D9442B"/>
+  <text x="452" y="380" font-size="14" font-weight="bold" fill="#D9442B">人間が13歳までに触れる言葉: 約1億語</text>
+  <text x="452" y="399" font-size="12" fill="#D9442B">(赤い丸の中心にある点。一生分に換算しても数億語程度)</text>
+
+  <!-- 注記 -->
+  <text x="20" y="428" font-size="10.5" fill="#888">※ 円の面積をデータ量に比例させている。トークンと語は厳密には異なる単位 (英語では1トークン ≒ 0.75語)。</text>
+  <text x="20" y="444" font-size="10.5" fill="#888">出典: Qwen3 Technical Report (2025) / Meta, Introducing Meta Llama 3 (2024) / Gilkerson et al. (2017), BabyLM Challenge</text>
+</svg>
