@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
-  <rect width="800" height="470" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 485" width="1060" height="485" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <rect width="1060" height="485" fill="#FFFFFF"/>
 
   <!-- 円の面積をデータ量に比例させる (Qwen3: r=170 を基準) -->
   <!-- Qwen3: 36兆トークン -->
@@ -9,8 +9,8 @@
   <!-- 人間 (一生): 約10億語 (r = 170 * sqrt(1/36000) ≒ 0.9) 実寸 -->
   <circle cx="230" cy="384.1" r="0.9" fill="#D9442B"/>
   <!-- 人間の位置を示すマーカー -->
-  <circle cx="230" cy="384.7" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
-  <line x1="237" y1="384.7" x2="425" y2="384.7" stroke="#D9442B" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="230" cy="384.1" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
+  <line x1="237" y1="384.1" x2="695" y2="384.1" stroke="#D9442B" stroke-width="1.2" stroke-dasharray="4 3"/>
 
   <!-- 円の中のラベル -->
   <text x="230" y="95" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Qwen3</text>
@@ -18,27 +18,36 @@
   <text x="230" y="250" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Llama 3</text>
   <text x="230" y="270" font-size="13" fill="#1F3F60" text-anchor="middle">15兆トークン</text>
 
+  <!-- Claude Opus 5.5: 学習データ量は非公開 (円の大きさは仮) -->
+  <circle cx="530" cy="250" r="120" fill="#7A4FA0" fill-opacity="0.06" stroke="#7A4FA0" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="530" y="272" font-size="64" font-weight="bold" fill="#7A4FA0" fill-opacity="0.55" text-anchor="middle">?</text>
+  <text x="530" y="104" font-size="15" font-weight="bold" fill="#5B3A7A" text-anchor="middle">Claude Opus 5.5</text>
+  <text x="530" y="124" font-size="13" fill="#5B3A7A" text-anchor="middle">学習データ量は非公開</text>
+
   <!-- 右側の説明 -->
-  <text x="430" y="80" font-size="20" font-weight="bold" fill="#222">言葉の量を円の面積で比べる</text>
+  <text x="700" y="80" font-size="20" font-weight="bold" fill="#222">言葉の量を円の面積で比べる</text>
 
-  <rect x="430" y="108" width="14" height="14" fill="#2F5D8A" fill-opacity="0.18" stroke="#2F5D8A" stroke-width="1.5"/>
-  <text x="452" y="120" font-size="14" fill="#333">Qwen3 (2025) の学習データ: 36兆トークン</text>
-  <rect x="430" y="136" width="14" height="14" fill="#2F5D8A" fill-opacity="0.45" stroke="#2F5D8A" stroke-width="1.5"/>
-  <text x="452" y="148" font-size="14" fill="#333">Llama 3 (2024) の学習データ: 15兆トークン</text>
+  <rect x="700" y="108" width="14" height="14" fill="#2F5D8A" fill-opacity="0.18" stroke="#2F5D8A" stroke-width="1.5"/>
+  <text x="722" y="120" font-size="14" fill="#333">Qwen3 (2025): 36兆トークン</text>
+  <rect x="700" y="136" width="14" height="14" fill="#2F5D8A" fill-opacity="0.45" stroke="#2F5D8A" stroke-width="1.5"/>
+  <text x="722" y="148" font-size="14" fill="#333">Llama 3 (2024): 15兆トークン</text>
+  <rect x="700" y="164" width="14" height="14" fill="#7A4FA0" fill-opacity="0.06" stroke="#7A4FA0" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="722" y="176" font-size="14" fill="#333">Claude Opus 5.5 (2026): 非公開</text>
+  <text x="722" y="194" font-size="12" fill="#666">(点線の円の大きさは仮。実際の量は不明)</text>
 
-  <text x="430" y="200" font-size="15" font-weight="bold" fill="#2F5D8A">Qwen3 は人間の一生分の 約3.6万倍</text>
-  <text x="430" y="226" font-size="13.5" fill="#444">人間の円は、この縮尺では直径わずか</text>
-  <text x="430" y="246" font-size="13.5" fill="#444">1.8ピクセル。ほとんど「点」にしかならない</text>
-  <text x="430" y="278" font-size="13.5" fill="#444">一生のあいだに触れる言葉を約3.6万人分</text>
-  <text x="430" y="298" font-size="13.5" fill="#444">集めて、ようやく Qwen3 の学習データ量に届く</text>
+  <text x="700" y="236" font-size="15" font-weight="bold" fill="#2F5D8A">Qwen3 は人間の一生分の 約3.6万倍</text>
+  <text x="700" y="262" font-size="13.5" fill="#444">人間の円は、この縮尺では直径わずか</text>
+  <text x="700" y="282" font-size="13.5" fill="#444">1.8ピクセル。ほとんど「点」にしかならない</text>
+  <text x="700" y="314" font-size="13.5" fill="#444">一生のあいだに触れる言葉を約3.6万人分</text>
+  <text x="700" y="334" font-size="13.5" fill="#444">集めて、ようやく Qwen3 の学習データ量に届く</text>
 
-  <circle cx="437" cy="384.7" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
-  <circle cx="437" cy="384.7" r="2" fill="#D9442B"/>
-  <text x="452" y="380" font-size="14" font-weight="bold" fill="#D9442B">人間が一生に触れる言葉: 約10億語</text>
-  <text x="452" y="399" font-size="12" fill="#D9442B">(赤い丸の中心の点。聞く・読むを多めに見積もった値)</text>
+  <circle cx="707" cy="384.1" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
+  <circle cx="707" cy="384.1" r="2" fill="#D9442B"/>
+  <text x="722" y="380" font-size="14" font-weight="bold" fill="#D9442B">人間が一生に触れる言葉: 約10億語</text>
+  <text x="722" y="399" font-size="12" fill="#D9442B">(赤い丸の中心の点。聞く・読むを多めに見積もった値)</text>
 
   <!-- 注記 -->
-  <text x="20" y="428" font-size="10.5" fill="#888">※ 円の面積をデータ量に比例させている。トークンと語は厳密には異なる単位 (英語では1トークン ≒ 0.75語)。</text>
-  <text x="20" y="444" font-size="10.5" fill="#888">出典: Qwen3 Technical Report (2025) / Meta, Introducing Meta Llama 3 (2024)</text>
+  <text x="20" y="428" font-size="10.5" fill="#888">※ 円の面積をデータ量に比例させている (Claude Opus 5.5 の点線の円を除く)。トークンと語は厳密には異なる単位 (英語では1トークン ≒ 0.75語)。</text>
+  <text x="20" y="444" font-size="10.5" fill="#888">出典: Qwen3 Technical Report (2025) / Meta, Introducing Meta Llama 3 (2024) / Claude Opus 5.5 の学習データ量は Anthropic から公開されていない (2026年10月時点)</text>
   <text x="20" y="460" font-size="10.5" fill="#888">人間の値は Gilkerson et al. (2017) の「年200万〜700万語」をもとに、読書の分も含めて80年分を多めに概算</text>
 </svg>
