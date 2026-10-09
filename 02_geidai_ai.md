@@ -290,6 +290,20 @@ paginate: true
 
 ---
 
+## 参考: マンガでわかるAIの仕組み 第1話
+
+[![height:230](https://cz-cdn.shoeisha.jp/static/images/article/24575/ogp1200x630_manga_ai.png)](https://codezine.jp/article/detail/24575)
+
+- [ChatGPTの心臓部『Transformer』って何がすごいの?](https://codezine.jp/article/detail/24575) (CodeZine, 2026年6月)
+  - 漫画と解説: 湊川あい / 監修: 西見公宏
+- 「文脈を読む」とはどういうことかを、マンガで分かりやすく解説
+  - **Attention (注意機構)**: すべての単語を同時に見渡し、注目すべき単語を計算
+  - **エンコーダとデコーダ**: 言葉を数値に変える役割と、次の言葉を予測する役割
+
+<!-- _footer: '画像出典: [CodeZine「ChatGPTの心臓部『Transformer』って何がすごいの? #マンガでわかるAIの仕組み 第1話」](https://codezine.jp/article/detail/24575)' -->
+
+---
+
 ## 生成のしくみ (2) - 拡散モデル
 
 - 画像生成AIで広く使われている方式 ([Rombach et al. 2022](https://arxiv.org/abs/2112.10752))

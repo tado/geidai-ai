@@ -179,6 +179,18 @@ ChatGPT のような言語モデルは、与えられた文章に続く **「次
 * [GitHub リポジトリ](https://github.com/poloclub/transformer-explainer)
 * [論文: Transformer Explainer (arXiv)](https://arxiv.org/abs/2408.04619)
 
+### 参考: マンガでわかるAIの仕組み 第1話
+
+[![](https://cz-cdn.shoeisha.jp/static/images/article/24575/ogp1200x630_manga_ai.png)](https://codezine.jp/article/detail/24575)
+
+<small>画像出典: [CodeZine「ChatGPTの心臓部『Transformer』って何がすごいの? #マンガでわかるAIの仕組み 第1話」](https://codezine.jp/article/detail/24575)</small>
+
+Transformer のしくみをもう少し知りたい人には、CodeZine の Web 連載「マンガでわかるAIの仕組み」の第1話「[ChatGPTの心臓部『Transformer』って何がすごいの?](https://codezine.jp/article/detail/24575)」(2026年6月公開、漫画と解説: 湊川あい、監修: 西見公宏) がおすすめです。
+
+私たちが普段何気なくやっている「文脈を読む」ことのすごさを入り口に、AI界に革命を起こした Transformer の秘密をマンガで分かりやすく解説しています。文中のすべての単語を同時に見渡し、どの単語に注目すべきかを計算する **Attention (注意機構)** や、言葉を数値に変える **エンコーダ** と、次に来る言葉を予測する **デコーダ** の役割分担など、Transformer Explainer の画面で見た仕組みを、言葉とマンガで確認することができます。
+
+* [ChatGPTの心臓部『Transformer』って何がすごいの? #マンガでわかるAIの仕組み 第1話 (CodeZine)](https://codezine.jp/article/detail/24575)
+
 ### 生成のしくみ (2) - 拡散モデル
 
 画像生成AIで広く使われているのが、拡散モデルの方式です ([Rombach et al. 2022](https://arxiv.org/abs/2112.10752))。拡散モデルは学習の際、画像に少しずつノイズを加えて砂嵐のような状態にし、**その逆 (ノイズを取り除いて元に戻す) 方法を学びます**。生成するときには、まったくのノイズから出発し、プロンプトを手がかりにノイズを少しずつ取り除いていきます。すると、砂嵐のなかから徐々に像が浮かび上がってきます。
