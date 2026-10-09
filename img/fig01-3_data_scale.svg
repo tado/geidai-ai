@@ -1,53 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 485" width="1060" height="485" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
-  <rect width="1060" height="485" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 510" width="800" height="510" font-family="'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP','Yu Gothic',sans-serif">
+  <rect width="800" height="510" fill="#FFFFFF"/>
 
-  <!-- 円の面積をデータ量に比例させる (Qwen3: r=170 を基準) -->
-  <!-- Qwen3: 36兆トークン -->
-  <circle cx="230" cy="215" r="170" fill="#2F5D8A" fill-opacity="0.18" stroke="#2F5D8A" stroke-width="2"/>
-  <!-- Llama 3: 15兆トークン (r = 170 * sqrt(15/36) ≒ 109.7) -->
-  <circle cx="230" cy="275.3" r="109.7" fill="#2F5D8A" fill-opacity="0.32" stroke="#2F5D8A" stroke-width="1.5"/>
-  <!-- 人間 (一生): 約10億語 (r = 170 * sqrt(1/36000) ≒ 0.9) 実寸 -->
-  <circle cx="230" cy="384.1" r="0.9" fill="#D9442B"/>
+  <!-- 円の面積をデータ量に比例させる (DeepSeek V4.1 Flash: r=170 を基準、下端 y=415 でそろえる) -->
+  <!-- DeepSeek V4.1 Flash: 45兆トークン (Epoch AI の推定で最大) -->
+  <circle cx="230" cy="245" r="170" fill="#2F5D8A" fill-opacity="0.10" stroke="#2F5D8A" stroke-width="2"/>
+  <!-- Qwen3: 36兆トークン (r = 170 * sqrt(36/45) ≒ 152.05) -->
+  <circle cx="230" cy="262.95" r="152.05" fill="#2F5D8A" fill-opacity="0.20" stroke="#2F5D8A" stroke-width="1.5"/>
+  <!-- Llama 3: 15兆トークン (r = 170 * sqrt(15/45) ≒ 98.15) -->
+  <circle cx="230" cy="316.85" r="98.15" fill="#2F5D8A" fill-opacity="0.34" stroke="#2F5D8A" stroke-width="1.5"/>
+  <!-- 人間 (一生): 約10億語 (r = 170 * sqrt(1/45000) ≒ 0.8) 実寸 -->
+  <circle cx="230" cy="414.2" r="0.8" fill="#D9442B"/>
   <!-- 人間の位置を示すマーカー -->
-  <circle cx="230" cy="384.1" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
-  <line x1="237" y1="384.1" x2="695" y2="384.1" stroke="#D9442B" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="230" cy="414.2" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
+  <line x1="237" y1="414.2" x2="425" y2="414.2" stroke="#D9442B" stroke-width="1.2" stroke-dasharray="4 3"/>
 
-  <!-- 円の中のラベル -->
-  <text x="230" y="95" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Qwen3</text>
-  <text x="230" y="115" font-size="13" fill="#1F3F60" text-anchor="middle">36兆トークン</text>
-  <text x="230" y="250" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Llama 3</text>
-  <text x="230" y="270" font-size="13" fill="#1F3F60" text-anchor="middle">15兆トークン</text>
-
-  <!-- Claude Opus 5.5: 学習データ量は非公開 (円の大きさは仮) -->
-  <circle cx="530" cy="250" r="120" fill="#7A4FA0" fill-opacity="0.06" stroke="#7A4FA0" stroke-width="2" stroke-dasharray="8 6"/>
-  <text x="530" y="272" font-size="64" font-weight="bold" fill="#7A4FA0" fill-opacity="0.55" text-anchor="middle">?</text>
-  <text x="530" y="104" font-size="15" font-weight="bold" fill="#5B3A7A" text-anchor="middle">Claude Opus 5.5</text>
-  <text x="530" y="124" font-size="13" fill="#5B3A7A" text-anchor="middle">学習データ量は非公開</text>
+  <!-- 円のラベル -->
+  <text x="230" y="46" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">DeepSeek V4.1 Flash</text>
+  <text x="230" y="65" font-size="13" fill="#1F3F60" text-anchor="middle">45兆トークン</text>
+  <text x="230" y="140" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Qwen3</text>
+  <text x="230" y="159" font-size="13" fill="#1F3F60" text-anchor="middle">36兆トークン</text>
+  <text x="230" y="305" font-size="15" font-weight="bold" fill="#1F3F60" text-anchor="middle">Llama 3</text>
+  <text x="230" y="324" font-size="13" fill="#1F3F60" text-anchor="middle">15兆トークン</text>
 
   <!-- 右側の説明 -->
-  <text x="700" y="80" font-size="20" font-weight="bold" fill="#222">言葉の量を円の面積で比べる</text>
+  <text x="430" y="80" font-size="20" font-weight="bold" fill="#222">言葉の量を円の面積で比べる</text>
 
-  <rect x="700" y="108" width="14" height="14" fill="#2F5D8A" fill-opacity="0.18" stroke="#2F5D8A" stroke-width="1.5"/>
-  <text x="722" y="120" font-size="14" fill="#333">Qwen3 (2025): 36兆トークン</text>
-  <rect x="700" y="136" width="14" height="14" fill="#2F5D8A" fill-opacity="0.45" stroke="#2F5D8A" stroke-width="1.5"/>
-  <text x="722" y="148" font-size="14" fill="#333">Llama 3 (2024): 15兆トークン</text>
-  <rect x="700" y="164" width="14" height="14" fill="#7A4FA0" fill-opacity="0.06" stroke="#7A4FA0" stroke-width="1.5" stroke-dasharray="3 2"/>
-  <text x="722" y="176" font-size="14" fill="#333">Claude Opus 5.5 (2026): 非公開</text>
-  <text x="722" y="194" font-size="12" fill="#666">(点線の円の大きさは仮。実際の量は不明)</text>
+  <rect x="430" y="108" width="14" height="14" fill="#2F5D8A" fill-opacity="0.10" stroke="#2F5D8A" stroke-width="1.5"/>
+  <text x="452" y="120" font-size="14" fill="#333">DeepSeek V4.1 Flash (2026): 45兆トークン</text>
+  <rect x="430" y="136" width="14" height="14" fill="#2F5D8A" fill-opacity="0.25" stroke="#2F5D8A" stroke-width="1.5"/>
+  <text x="452" y="148" font-size="14" fill="#333">Qwen3 (2025): 36兆トークン</text>
+  <rect x="430" y="164" width="14" height="14" fill="#2F5D8A" fill-opacity="0.45" stroke="#2F5D8A" stroke-width="1.5"/>
+  <text x="452" y="176" font-size="14" fill="#333">Llama 3 (2024): 15兆トークン</text>
 
-  <text x="700" y="236" font-size="15" font-weight="bold" fill="#2F5D8A">Qwen3 は人間の一生分の 約3.6万倍</text>
-  <text x="700" y="262" font-size="13.5" fill="#444">人間の円は、この縮尺では直径わずか</text>
-  <text x="700" y="282" font-size="13.5" fill="#444">1.8ピクセル。ほとんど「点」にしかならない</text>
-  <text x="700" y="314" font-size="13.5" fill="#444">一生のあいだに触れる言葉を約3.6万人分</text>
-  <text x="700" y="334" font-size="13.5" fill="#444">集めて、ようやく Qwen3 の学習データ量に届く</text>
+  <text x="430" y="226" font-size="15" font-weight="bold" fill="#2F5D8A">最大のモデルは人間の一生分の 約4.5万倍</text>
+  <text x="430" y="252" font-size="13.5" fill="#444">人間の円は、この縮尺では直径わずか</text>
+  <text x="430" y="272" font-size="13.5" fill="#444">1.6ピクセル。ほとんど「点」にしかならない</text>
+  <text x="430" y="304" font-size="13.5" fill="#444">一生のあいだに触れる言葉を約4.5万人分</text>
+  <text x="430" y="324" font-size="13.5" fill="#444">集めて、ようやく最大のモデルの学習データ量に届く</text>
 
-  <circle cx="707" cy="384.1" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
-  <circle cx="707" cy="384.1" r="2" fill="#D9442B"/>
-  <text x="722" y="380" font-size="14" font-weight="bold" fill="#D9442B">人間が一生に触れる言葉: 約10億語</text>
-  <text x="722" y="399" font-size="12" fill="#D9442B">(赤い丸の中心の点。聞く・読むを多めに見積もった値)</text>
+  <circle cx="437" cy="414.2" r="7" fill="none" stroke="#D9442B" stroke-width="1.5"/>
+  <circle cx="437" cy="414.2" r="2" fill="#D9442B"/>
+  <text x="452" y="410" font-size="14" font-weight="bold" fill="#D9442B">人間が一生に触れる言葉: 約10億語</text>
+  <text x="452" y="429" font-size="12" fill="#D9442B">(赤い丸の中心の点。聞く・読むを多めに見積もった値)</text>
 
   <!-- 注記 -->
-  <text x="20" y="428" font-size="10.5" fill="#888">※ 円の面積をデータ量に比例させている (Claude Opus 5.5 の点線の円を除く)。トークンと語は厳密には異なる単位 (英語では1トークン ≒ 0.75語)。</text>
-  <text x="20" y="444" font-size="10.5" fill="#888">出典: Qwen3 Technical Report (2025) / Meta, Introducing Meta Llama 3 (2024) / Claude Opus 5.5 の学習データ量は Anthropic から公開されていない (2026年10月時点)</text>
-  <text x="20" y="460" font-size="10.5" fill="#888">人間の値は Gilkerson et al. (2017) の「年200万〜700万語」をもとに、読書の分も含めて80年分を多めに概算</text>
+  <text x="20" y="455" font-size="10.5" fill="#888">※ 円の面積をデータ量に比例させている。トークンと語は厳密には異なる単位 (英語では1トークン ≒ 0.75語)。</text>
+  <text x="20" y="471" font-size="10.5" fill="#888">出典: Epoch AI「Data on AI Models」(2026年10月時点で推定値が最大。Thinking Machines の Inkling も同じ45兆トークン)</text>
+  <text x="20" y="487" font-size="10.5" fill="#888">Qwen3 Technical Report (2025) / Meta, Introducing Meta Llama 3 (2024)</text>
+  <text x="20" y="503" font-size="10.5" fill="#888">人間の値は Gilkerson et al. (2017) の「年200万〜700万語」をもとに、読書の分も含めて80年分を多めに概算</text>
 </svg>

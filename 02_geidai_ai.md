@@ -226,7 +226,7 @@ paginate: true
 
 ![height:430](https://raw.githubusercontent.com/tado/geidai-ai/main/img/fig01-3_data_scale.svg)
 
-<!-- _footer: '出典: [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) / [Meta Llama 3](https://ai.meta.com/blog/meta-llama-3/) / 人間の値は [Gilkerson et al. 2017](https://doi.org/10.1044/2016_AJSLP-15-0169) をもとにした概算' -->
+<!-- _footer: '出典: [Epoch AI「Data on AI Models」](https://epoch.ai/data/ai-models) / [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) / [Meta Llama 3](https://ai.meta.com/blog/meta-llama-3/) / 人間の値は [Gilkerson et al. 2017](https://doi.org/10.1044/2016_AJSLP-15-0169) をもとにした概算' -->
 
 ---
 
