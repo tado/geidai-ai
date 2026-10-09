@@ -115,6 +115,16 @@ AIを使った制作には、三つの段階があります。
 
 ここで押さえておきたいのは、**学習はデータの保存とは違う** という点です。学習とは、「この言葉の後にはどんな言葉が来やすいか」「『夕日』という言葉には、どんな色や形が結びつきやすいか」といった傾向を、モデル内部の膨大な数値の組み合わせとして少しずつ調整していく過程です。
 
+#### 補足: 巨大化する言語モデル
+
+[![](https://infobeautiful4.s3.amazonaws.com/2023/05/IIB-LLMs2-decorative-1030x520-1-960x485.png)](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)
+
+<small>画像出典: [Information is Beautiful「The Rise of Generative AI Large Language Models (LLMs) like ChatGPT」](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)</small>
+
+言語モデルがどれほど急速に巨大化してきたかは、Information is Beautiful の「[Major Large Language Models (LLMs)](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)」というグラフで見ることができます。主要なLLMを性能 (MMLU というベンチマークのスコア) で並べ、**円の大きさでモデルの規模 (パラメータ数)** を表したもので、モデルの規模が桁違いに広がっていることが一目で分かります。元のページは操作できるインタラクティブなグラフになっていて、各モデルの詳細を確認できるので、実際に操作してみてください。
+
+なお、このグラフが示しているのはモデル自体の大きさ (パラメータ数) で、学習に使われたデータの量とは別の指標です。学習データ量の推移は、Our World in Data の「[Data points used to train notable artificial intelligence systems](https://ourworldindata.org/grapher/artificial-intelligence-number-training-datapoints)」で確認できます。
+
 ### 学習 - 圧縮された文化的記憶
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp)

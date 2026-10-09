@@ -209,6 +209,19 @@ paginate: true
 
 ---
 
+## 補足: 巨大化する言語モデル
+
+[![height:300](https://infobeautiful4.s3.amazonaws.com/2023/05/IIB-LLMs2-decorative-1030x520-1-960x485.png)](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)
+
+- Information is Beautiful「Major Large Language Models (LLMs)」
+  - 主要なLLMを性能 (MMLU ベンチマークのスコア) で並べ、**円の大きさでモデルの規模 (パラメータ数)** を表したグラフ
+  - モデルの規模が桁違いに広がっていることが一目で分かる
+  - 元のページは操作できるインタラクティブなグラフで、各モデルの詳細を確認できる
+
+<!-- _footer: '画像出典: [Information is Beautiful「The Rise of Generative AI Large Language Models (LLMs) like ChatGPT」](https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/)' -->
+
+---
+
 ## 学習 - 圧縮された文化的記憶
 
 ![bg right:35% contain](https://upload.wikimedia.org/wikipedia/commons/8/82/Astronaut_Riding_a_Horse_%28SD3.5%29.webp)
