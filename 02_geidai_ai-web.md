@@ -6,7 +6,7 @@
 
 まず、AIを使った作品をめぐって起きた3つの出来事を手がかりに、「AIが作った」というラベルが何を見えなくしてしまうのかを考えます。続いて、生成AIが実際に何をしているのか、学習と生成のしくみ、そしてAIが「平均」へと引き寄せられる性質について、制作者の立場から最小限知っておきたいことを確認します。
 
-後半は実習として、VS Code と GitHub Copilot をセットアップし、AIによるテキストの自動補完を使いながら文章を書く体験をします。最後に次週までの課題について説明して本日は終了です。
+最後に、次回の実習に向けた準備について説明して本日は終了です。次回は、VS Code と GitHub Copilot を使い、AIによるテキストの補完を受け取りながら文章を書きます。
 
 ## スライド資料
 
@@ -243,154 +243,6 @@ AIは奇妙な誤りも犯します。初期の画像生成AIが描く人間の�
 2. 平均へと引き寄せられる性質は、確率にもとづく生成と、人間の好みに合わせる調整の両方によって、**AIの構造そのものに組み込まれている**。平均から抜け出すには、人間の側の粘り強い働きかけが必要になる (Allen の624回のプロンプト、九段の20万字のプロンプト)
 3. AIの誤りは、学習データに含まれる思いがけない結びつきを表に出す。それを手がかりとして生かせるかどうかは、**使い手しだい** である
 
-## 実習: AIと共創しながら文章を作成する
-
-### AIとの共創の準備: VS Code と GitHub Copilot のセットアップ
-
-後半の実習では、文章を書きながら、その続きをAIがリアルタイムに提案する環境をつくります。エディタには **Visual Studio Code** (VS Code) を、AIには **GitHub Copilot** の **補完機能** (書きかけの文章の続きを提案する機能) を使います。VS Code 1.116 以降は本体に Copilot が標準搭載されているので、拡張機能のインストールは不要です。
-
-準備の流れは以下のとおりです。
-
-1. VS Code をインストール
-2. GitHub アカウントを作成
-3. VS Code で AI 機能を有効化
-4. GitHub でサインインして認可 (Copilot Free に自動登録)
-5. Markdown で補完を有効にする
-6. テキスト補完を試す
-
-### 1. VS Code をインストール
-
-公式サイト [https://code.visualstudio.com/](https://code.visualstudio.com/) からダウンロードします。
-
-| OS | インストール手順 |
-| :--- | :--- |
-| **Windows** | ダウンロードしたインストーラを実行（設定はデフォルトのままで OK） |
-| **macOS** | zip を展開し、Visual Studio Code.app を「アプリケーション」フォルダへ移動 |
-
-メニューは最初は英語で表示されます。ここでも英語のUI名 (Settings, Accounts など) で説明します。
-
-### 2. GitHub アカウントを作成
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/github-email-verify.png)
-
-<small>画像出典: [GitHub Docs](https://docs.github.com/) (© GitHub, CC BY 4.0)</small>
-
-[https://github.com/](https://github.com/) を開いて **Sign up** から登録します (Google アカウントでも登録可能)。メールアドレス・パスワード・ユーザー名・国/地域を入力し、パズルを解いたら、メールに届く確認コードを入力して **メール認証を完了** させます。認証状態は Settings > Emails で確認でき、Unverified になっている場合は確認メールを再送できます。
-
-### 3. VS Code で AI 機能を有効にする
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/vscode-enable-ai-features.png)
-
-<small>画像出典: [Visual Studio Code Docs](https://code.visualstudio.com/docs) (© Microsoft, CC BY 3.0 US)</small>
-
-VS Code を起動し、次のどちらかをクリックします (図の赤枠を参照)。
-
-* **方法 A (推奨)**: タイトルバー右上の **Sign In**
-* **方法 B**: 右下ステータスバーの Copilot アイコン → **Use AI Features**
-
-### 4. GitHub でサインインして認可する
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/copilot-sign-in.png)
-
-<small>画像出典: [Visual Studio Code Docs](https://code.visualstudio.com/docs) (© Microsoft, CC BY 3.0 US)</small>
-
-サインイン方法として **Continue with GitHub** を選びます。自動でブラウザが開くので、手順2で作ったアカウントでログインします。Copilot の契約がないアカウントは、自動的に **Copilot Free** (無料プラン) に登録されます。クレジットカードの登録などは一切不要です。
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/github-authorize-app.png)
-
-<small>画像出典: [GitHub Docs](https://docs.github.com/) (© GitHub, CC BY 4.0)</small>
-
-VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボタンを押します (図は画面の例です。実際はアプリ名が Visual Studio Code と表示されます)。「Visual Studio Code を開きますか?」と聞かれたら許可してエディタに戻ります。右下の Copilot アイコンを開き、プラン名 (Copilot Free など) が表示されていれば完了です。
-
-### 5. Markdown で補完を有効にする
-
-今回はプログラムではなく **文章** を書くので、Markdown ファイル (.md) を使います。Copilot の補完は、初期設定では **Markdown やプレーンテキストでは無効** になっている場合があります。.md ファイルを開いた状態で右下ステータスバーの Copilot アイコンをクリックし、メニューから **Markdown** での補完を有効にしてください。
-
-設定ファイル (settings.json) で指定する場合は、以下のように記述します。
-
-```json
-"github.copilot.enable": {
-  "*": true,
-  "markdown": true,
-  "plaintext": true
-}
-```
-
-### 6. テキスト補完を試す
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/inline-suggestion.png)
-
-<small>画像出典: [Visual Studio Code Docs](https://code.visualstudio.com/docs) (© Microsoft, CC BY 3.0 US)</small>
-
-File > New Text File で新規ファイルを作り、story.md などの名前で保存します。文章を書き始めると、続きの文章が **薄いグレー (ゴーストテキスト)** で提案されます (図はプログラムの例ですが、文章でも同じようにグレーの文字で続きが提案されます)。
-
-* <kbd>Tab</kbd>: **提案を確定**
-* <kbd>Esc</kbd>: **提案を破棄**
-
-試しに # 雨の日の図書館 と見出しを書き、1行目を書き始めて少し待ってみましょう。
-
-### 補完をコントロールする
-
-提案を **全部は受け入れない** ことも、共創の大切な判断です。以下の操作を使うと、AIの提案を細かくコントロールできます。
-
-* **単語ごとに確定**: Windows <kbd>Ctrl</kbd> + <kbd>→</kbd> / macOS <kbd>⌘ Command</kbd> + <kbd>→</kbd>
-  * 気に入った部分までだけ受け入れ、その先は自分で書く
-* **別の候補を見る**: Windows <kbd>Alt</kbd> + <kbd>]</kbd> / macOS <kbd>⌥ Option</kbd> + <kbd>]</kbd>
-  * 提案にマウスを重ねると、候補を切り替えるツールバーも表示される
-
-提案は、直前までの文章 (= プロンプト) によって変わります。書き出しの言葉、文体、見出しを変えると、続きの方向も変わります。
-
-### 使用量を確認する
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/copilot-status-dashboard.png)
-
-<small>画像出典: [Visual Studio Code Docs](https://code.visualstudio.com/docs) (© Microsoft, CC BY 3.0 US)</small>
-
-右下ステータスバーの Copilot アイコンをクリックすると、今月の利用枠を何%消費したかが表示されます (図は有料プランの例です。Free では補完の使用量も表示されます)。Copilot Free の月間上限は以下のとおりです。実習に入る前に、残り枠を確認しておきましょう。
-
-* **補完**: 2,000回まで (確定ベース)
-* **チャット**: AIクレジットの範囲内 (月50回程度が目安)
-
-### 上限を気にせず使うには?
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/education-upload-proof.png)
-
-<small>画像出典: [GitHub Docs](https://docs.github.com/) (© GitHub, CC BY 4.0)</small>
-
-**GitHub Student Developer Pack** で学生認証を行うと、有料相当の **Copilot Student** を **無料** で利用できます。
-
-1. [https://github.com/settings/education/benefits](https://github.com/settings/education/benefits) にアクセス
-2. 大学のメールアカウント (ac.jp) を登録し、学生証の写真等を提出して申請
-3. 認証完了後、同ページで Copilot Student を有効化
-
-認証の反映には数日かかる場合があります。詳しくは [GitHub Docs「Copilot Student の設定」](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students) を参照してください。
-
-### データの扱いとプライバシー設定
-
-自分の文章を安心して書くために、初期設定と変更方法を把握しておきましょう。Copilot Free の初期設定では、テレメトリ (製品改善のためのデータ送信) が **有効**、公開コードと一致する提案 (Public code suggestions) が **許可** になっています。より厳格に変更したい場合は、以下のように設定します。
-
-* **VS Code 設定**: telemetry.telemetryLevel を検索して off に設定
-* **GitHub 設定**: [https://github.com/settings/copilot](https://github.com/settings/copilot) を開き、
-  * 「Suggestions matching public code」を **Block** に変更
-  * 「Allow GitHub to use my data for AI model training」を **Disabled** に変更
-
-個人情報や、未発表の大切な原稿は入力しないように注意してください。
-
-### うまくいかないとき
-
-![](https://raw.githubusercontent.com/tado/sfc-design/main/img/vscode-accounts-menu.png)
-
-<small>画像出典: [Visual Studio Code Docs](https://code.visualstudio.com/docs) (© Microsoft, CC BY 3.0 US)</small>
-
-* **Sign In ボタンや Copilot アイコンが見当たらない**
-  * 左下の人型アイコン (Accounts) → **Sign in with GitHub to use GitHub Copilot**
-  * VS Code のバージョンを確認 (1.116 以降が必要。古ければアップデート)
-* **別のアカウントでサインインしてしまった**
-  * Accounts メニューから **Sign out** して正しいアカウントで入り直す
-* **文章の補完が出ない**
-  * ファイルを .md 付きで保存しているか確認
-  * Markdown での補完が有効になっているか確認 (手順5)
-
 ## 関連リンク
 
 * [Visual Studio Code](https://code.visualstudio.com/)
@@ -401,41 +253,49 @@ File > New Text File で新規ファイルを作り、story.md などの名前�
 * [Boris Eldagsen「Sony World Photography Awards 2023」](https://www.eldagsen.com/sony-world-photography-awards-2023/)
 * [博報堂『影の雨』プロンプト全文公開](https://www.hakuhodo.co.jp/news/newsrelease/117760/)
 
-## 次週までの課題
+## 次回までの準備
 
-### AIと共創するレポート「創作において人工知能とは...」
+次回は、VS Code と GitHub Copilot を使って、AIによるテキストの補完を受け取りながら文章を書く実習を行います。授業の時間をできるだけ実習に使えるよう、以下の準備をしてきてください。
 
-VS Code と GitHub Copilot の **テキスト補完** を使って、レポートを書いてください。書き出しは、必ず次の一文から始めます。
+* **ノートPCを持参する** (Windows または macOS)
+* **VS Code をインストールする**
+* **GitHub のアカウントを作成し、メール認証を済ませる**
+* (任意) **GitHub Student Developer Pack を申請する**
 
-```markdown
-# 創作において人工知能とは
+iPad や Chromebook しか持っていない場合は、事前に相談してください。
 
-創作において人工知能とは、
-```
+### 1. VS Code をインストールする
 
-この続きを、AIの補完と自分の言葉を往復させながら書き進めます。分量の目安は **1,200〜2,000字程度** です。AIの提案をそのまま並べるのではなく、**採用・修正・拒否の判断** を重ねて、自分のレポートに仕上げてください。
+公式サイト [https://code.visualstudio.com/](https://code.visualstudio.com/) からダウンロードします。
 
-### 進め方
+| OS | インストール手順 |
+| :--- | :--- |
+| **Windows** | ダウンロードしたインストーラを実行（設定はデフォルトのままで OK） |
+| **macOS** | zip を展開し、Visual Studio Code.app を「アプリケーション」フォルダへ移動 |
 
-1. report.md という名前で新しいファイルを作り、書き出しの一文を入力する
-2. 少し待って、グレーの文字で提案される続きを読む
-3. 提案を **全部確定する / 単語ごとに確定する / 破棄して自分で書く** を選ぶ
-   * <kbd>Tab</kbd>: 確定 / <kbd>Ctrl</kbd>(<kbd>⌘</kbd>) + <kbd>→</kbd>: 単語ごとに確定 / <kbd>Esc</kbd>: 破棄
-4. 方向を変えたいときは、自分で数語を書き足してから、再び提案を待つ
-   * 書き出しの言葉や文体を変えると、続きの方向も変わる
-5. 今日の講義の内容 (ボタンの手前・奥・向こう、平均への引力など) も手がかりにする
+メニューは最初は英語で表示されますが、そのままで大丈夫です (次回も英語のUI名で説明します)。
 
-### 提出方法
+### 2. GitHub のアカウントを作成する
 
-* **提出物**: テキストファイル (report.md)
-  * ファイル名は 学籍番号_氏名.md に変更して提出
-* **提出先**: (提出先を記入)
-* **締切**: 次回の授業の前日まで
+![](https://raw.githubusercontent.com/tado/sfc-design/main/img/github-email-verify.png)
 
-以下の点に注意してください。
+<small>画像出典: [GitHub Docs](https://docs.github.com/) (© GitHub, CC BY 4.0)</small>
 
-* 書き出しの一文「創作において人工知能とは、」から始めること
-* 個人情報や、他人に見せたくない内容は入力しないこと
+[https://github.com/](https://github.com/) を開いて **Sign up** から登録します (Google アカウントでも登録可能)。メールアドレス・パスワード・ユーザー名・国/地域を入力し、パズルを解いたら、メールに届く確認コードを入力して **メール認証を完了** させます。認証状態は Settings > Emails で確認でき、Unverified になっている場合は確認メールを再送できます。
+
+### 3. (任意) GitHub Student Developer Pack を申請する
+
+![](https://raw.githubusercontent.com/tado/sfc-design/main/img/education-upload-proof.png)
+
+<small>画像出典: [GitHub Docs](https://docs.github.com/) (© GitHub, CC BY 4.0)</small>
+
+無料プランの Copilot Free は、補完の回数に月ごとの上限があります。**GitHub Student Developer Pack** で学生認証を行うと、有料相当の **Copilot Student** を **無料** で利用できます。認証の反映には数日かかる場合があるので、早めに申請しておきましょう。
+
+1. [https://github.com/settings/education/benefits](https://github.com/settings/education/benefits) にアクセス
+2. 大学のメールアカウント (ac.jp) を登録し、学生証の写真等を提出して申請
+3. 認証完了後、同ページで Copilot Student を有効化
+
+詳しくは [GitHub Docs「Copilot Student の設定」](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students) を参照してください。
 
 ## 参考文献
 
