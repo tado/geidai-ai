@@ -428,6 +428,7 @@ paginate: true
 - メールアドレス・パスワード・ユーザー名・国/地域を入力し、パズルを解く
 - メールに届く確認コードを入力して **メール認証を完了**
   - 認証状態は `Settings > Emails` で確認可能（Unverified なら再送できる）
+- 詳細: [GitHub Docs「GitHubでのアカウントの作成」](https://docs.github.com/ja/account-and-profile/how-tos/account-management/creating-an-account-on-github)
 
 ![height:220](https://raw.githubusercontent.com/tado/sfc-design/main/img/github-email-verify.png)
 

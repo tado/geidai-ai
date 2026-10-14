@@ -283,6 +283,8 @@ iPad や Chromebook しか持っていない場合は、事前に相談してく
 
 [https://github.com/](https://github.com/) を開いて **Sign up** から登録します (Google アカウントでも登録可能)。メールアドレス・パスワード・ユーザー名・国/地域を入力し、パズルを解いたら、メールに届く確認コードを入力して **メール認証を完了** させます。認証状態は Settings > Emails で確認でき、Unverified になっている場合は確認メールを再送できます。
 
+詳しい手順は、[GitHub Docs「GitHubでのアカウントの作成」](https://docs.github.com/ja/account-and-profile/how-tos/account-management/creating-an-account-on-github) を参照してください。
+
 ### 3. (任意) GitHub Student Developer Pack を申請する
 
 ![](https://raw.githubusercontent.com/tado/sfc-design/main/img/education-upload-proof.png)
