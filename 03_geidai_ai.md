@@ -223,6 +223,7 @@ VS Code を起動し、次のどちらかをクリック（図の赤枠参照）
 - **Copilot Free の初期設定**:
   - テレメトリ（製品改善のためのデータ送信）: **有効**
   - 公開コードと一致する提案（Public code suggestions）: **許可**
+  - AIモデルの学習へのデータ利用: **有効**
 - **より厳格に変更したい場合**:
   - **VS Code 設定**: `telemetry.telemetryLevel` を検索して `off` に設定
   - **GitHub 設定**: 🔗 https://github.com/settings/copilot を開き、
@@ -255,7 +256,7 @@ VS Code を起動し、次のどちらかをクリック（図の赤枠参照）
 - **使用量を確認する**
   - 今月の利用枠がどれくらい残っているかをチェック
 - **GitHub Student Developer Pack を申請する**
-  - 認証されれば、上限を気にせず使える (反映に数日かかることも)
+  - 認証されれば、補完を上限なしで使える (反映に数日かかることも)
 - **まわりの人を手伝う**
   - 困っている人がいたら声をかけて
 
@@ -279,12 +280,13 @@ VS Code を起動し、次のどちらかをクリック（図の赤枠参照）
 
 <!-- _footer: 画像出典:GitHub Docs(CC BY 4.0) -->
 
-## 上限を気にせず使うには？
+## 補完を上限なしで使うには？
 
 ![bg right:40% contain](https://raw.githubusercontent.com/tado/sfc-design/main/img/education-upload-proof.png)
 
 - **GitHub Student Developer Pack**:
-  - 学生認証を行うと、有料相当の **Copilot Student** を **無料** で利用できます
+  - 学生認証を行うと、補完が無制限の **Copilot Student** を **無料** で利用できます
+  - チャットは、Free と同じく AIクレジットの範囲内
 - **申請・有効化の手順**:
   1. https://github.com/settings/education/benefits にアクセス
   2. 大学のメールアカウント (ac.jp) を登録し、学生証の写真等を提出して申請
@@ -380,7 +382,7 @@ VS Code を起動し、次のどちらかをクリック（図の赤枠参照）
   - 提案が出ないときは、<kbd>Enter</kbd> で改行だけを入れて待つ
 - 400字程度になったら止める
 
-> > ⚠️ 書き出しのあとは、文字を打つ・消す・書き換えるなどの編集を **一切しない**。別の候補 (<kbd>Alt</kbd> + <kbd>]</kbd>) や単語ごとの確定 (<kbd>Ctrl</kbd> + <kbd>→</kbd>) も使わない。同じ文が繰り返されても、そのまま残す
+> > ⚠️ 自分で入力してよいのは、書き出しと改行だけ。文字を打つ・消す・書き換えるなどの編集は **一切しない**。別の候補 (<kbd>Alt</kbd> + <kbd>]</kbd>) や単語ごとの確定 (<kbd>Ctrl</kbd> + <kbd>→</kbd>) も使わない。同じ文が繰り返されても、そのまま残す
 
 ---
 

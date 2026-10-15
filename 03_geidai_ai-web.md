@@ -141,7 +141,7 @@ VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボ
 
 ### データの扱いとプライバシー設定
 
-文章を書き始める前に、データの扱いについての初期設定と変更方法を把握しておきましょう。Copilot Free の初期設定では、テレメトリ (製品改善のためのデータ送信) が **有効**、公開コードと一致する提案 (Public code suggestions) が **許可** になっています。より厳格に変更したい場合は、以下のように設定します。
+文章を書き始める前に、データの扱いについての初期設定と変更方法を把握しておきましょう。Copilot Free の初期設定では、テレメトリ (製品改善のためのデータ送信) が **有効**、公開コードと一致する提案 (Public code suggestions) が **許可**、AIモデルの学習へのデータ利用が **有効** になっています。より厳格に変更したい場合は、以下のように設定します。
 
 * **VS Code 設定**: telemetry.telemetryLevel を検索して off に設定
 * **GitHub 設定**: [https://github.com/settings/copilot](https://github.com/settings/copilot) を開き、
@@ -180,13 +180,13 @@ VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボ
 * **補完**: 2,000回まで (確定ベース)
 * **チャット**: AIクレジットの範囲内 (月50回程度が目安)
 
-#### 上限を気にせず使うには?
+#### 補完を上限なしで使うには?
 
 ![](https://raw.githubusercontent.com/tado/sfc-design/main/img/education-upload-proof.png)
 
 <small>画像出典: [GitHub Docs](https://docs.github.com/) (© GitHub, CC BY 4.0)</small>
 
-**GitHub Student Developer Pack** で学生認証を行うと、有料相当の **Copilot Student** を **無料** で利用できます。
+**GitHub Student Developer Pack** で学生認証を行うと、補完が無制限の **Copilot Student** を **無料** で利用できます (チャットは、Free と同じく AIクレジットの範囲内です)。
 
 1. [https://github.com/settings/education/benefits](https://github.com/settings/education/benefits) にアクセス
 2. 大学のメールアカウント (ac.jp) を登録し、学生証の写真等を提出して申請
