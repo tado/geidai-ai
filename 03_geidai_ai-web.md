@@ -194,8 +194,6 @@ VS Code からのアクセス許可画面が出たら、緑の **Authorize** ボ
 
 認証の反映には数日かかる場合があります。詳しくは [GitHub Docs「Copilot Student の設定」](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students) を参照してください。
 
-## 補完の基本操作
-
 ### 6. テキスト補完を試す
 
 ![](https://raw.githubusercontent.com/tado/sfc-design/main/img/inline-suggestion.png)
@@ -208,6 +206,8 @@ File > New Text File で新規ファイルを作り、story.txt などの名前�
 * <kbd>Esc</kbd>: **提案を破棄**
 
 試しに「雨の日の図書館で」と書き始めて、少し待ってみましょう。
+
+## 補完の基本操作
 
 ### 補完をコントロールする
 
