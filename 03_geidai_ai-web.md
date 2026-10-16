@@ -98,7 +98,7 @@ AIを使った制作には、三つの段階があります。
 
 [GitHubのWebサイト](https://github.com/) を開いて **Sign up** から登録します (Google アカウントでも登録可能)。メールアドレス・パスワード・ユーザー名・国/地域を入力し、パズルを解いたら、メールに届く確認コードを入力して **メール認証を完了** させます。認証状態は Settings > Emails で確認でき、Unverified になっている場合は確認メールを再送できます。
 
-詳しい手順は、[GitHub Docs「GitHubでのアカウントの作成」](https://docs.github.com/ja/account-and-profile/how-tos/account-management/creating-an-account-on-github) を参照してください。
+詳しい手順は、[GitHub Docs「GitHubでのアカウントの作成」](https://docs.github.com/ja/account-and-profile/how-tos/account-management/creating-an-account-on-github) を参照してください。あわせて、[【GitHub非エンジニア入門 2/5】アカウント作成と最初のリポジトリ｜ブラウザだけで始めるGitHub](https://hatenabase.jp/blog/github-for-non-engineers-2-first-repo/) も参考になります。
 
 ### 3. VS Code で AI 機能を有効にする
 

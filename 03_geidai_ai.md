@@ -150,8 +150,9 @@ paginate: true
 - メールに届く確認コードを入力して **メール認証を完了**
   - 認証状態は `Settings > Emails` で確認可能（Unverified なら再送できる）
 - 詳細: [GitHub Docs「GitHubでのアカウントの作成」](https://docs.github.com/ja/account-and-profile/how-tos/account-management/creating-an-account-on-github)
+- 参考: [【GitHub非エンジニア入門 2/5】アカウント作成と最初のリポジトリ｜ブラウザだけで始めるGitHub](https://hatenabase.jp/blog/github-for-non-engineers-2-first-repo/)
 
-![height:220](https://raw.githubusercontent.com/tado/sfc-design/main/img/github-email-verify.png)
+![height:180](https://raw.githubusercontent.com/tado/sfc-design/main/img/github-email-verify.png)
 
 ---
 
