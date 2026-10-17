@@ -85,9 +85,10 @@ DeepDream が描き出したのは、ネットワークが学習した大量の�
 
 2022年11月から2023年10月まで、ニューヨーク近代美術館 (MoMA) のロビーで、Refik Anadol の「Unsupervised」が展示されました。MoMA が公開している所蔵作品のデータを機械学習モデルに学習させ、200年以上にわたる近代美術の歴史を、絶えず変化し続ける巨大な映像として「夢見させる」作品です。展示室の光や人の動き、外の天気といった情報も、映像の変化に影響を与えます。
 
-美術館の所蔵品そのものを学習データにした作品が、その美術館のロビーを占めたことは大きな話題となり、評価は賛否両論に分かれました。
+美術館の所蔵品そのものを学習データにした作品が、その美術館のロビーを占めたことは大きな話題となりました。MoMA はのちに、生成AIを使った作品として初めて、この作品を所蔵品に加えています。一方で、批評家の Jerry Saltz が「美化されたラバランプ」と酷評するなど、評価は賛否両論に分かれました。
 
 * [MoMA「Refik Anadol: Unsupervised」](https://www.moma.org/calendar/exhibitions/5535)
+* [NPR「'Machines are collaborators' at this new museum of AI art」(2026)](https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol)
 
 ### 誰でも言葉で描ける時代へ (2022-)
 
@@ -105,6 +106,34 @@ DeepDream が描き出したのは、ネットワークが学習した大量の�
 
 2026年に入っても、OpenAI の ChatGPT Images 2.0 (4月) と 2.5 (9月)、Google の Nano Banana 2 (2月) と 2.1 (10月) と、新しいモデルが次々に公開されています。画像のなかに日本語の文字を正確に描く、ウェブで調べた情報をもとに図解するといったことも可能になりました。画像生成AIは、一度で絵を出力する道具から、**言葉で指示し、対話しながら直していく道具** へと変わりつつあります。
 
+### Holly Herndon と Mat Dryhurst「xhairymutantx」(2024)
+
+ベルリンを拠点とするアーティストの Holly Herndon と Mat Dryhurst は、2024年のホイットニー・ビエンナーレで「xhairymutantx」を発表しました。Herndon はよく知られたミュージシャンなので、DALL·E や Midjourney、Stable Diffusion に名前を入力するだけで、彼女の特徴をもった画像が生成されます。AIは、すでに彼女の姿を学習していました。
+
+そこで2人は、衣装で体の形をゆがめ、いちばんの特徴である赤い髪を大げさに強調した Herndon の画像を用意し、それを学習させた画像生成モデルを作りました。このモデルは、どんなプロンプトを入力しても、ゆがめられた「Holly」の画像を返します。生成された画像は美術館のウェブサイトのギャラリーに保存され、インターネットを通じて、これからのAIの学習データになっていく可能性があります。AIは美術館のサイトを信頼できる情報源として扱うので、2人はそれを利用して、AIのなかの「Holly」の姿に影響を与えようとしました。インターネットの上で、自分の姿をどこまで自分で決められるのかを問う作品です。
+
+実習の「生成AI自画像」とは逆の方向から、「AIのなかのわたし」を扱った作品だといえます。
+
+* [Whitney Museum of American Art「Holly Herndon and Mat Dryhurst: xhairymutantx」](https://whitney.org/exhibitions/xhairymutantx)
+
+### Christie's「Augmented Intelligence」(2025)
+
+2025年2月20日から3月5日まで、クリスティーズは、AIを使った作品だけを集めた初めてのオークション「Augmented Intelligence」をオンラインで開きました。落札総額は約73万ドルで、最高額は Refik Anadol の作品の27万7200ドルでした。ハロルド・コーエンが AARON で描いた1987年のドローイングも出品され、1万1340ドルで落札されています。
+
+一方で、開催前には約6500人のアーティストが、オークションの中止を求める公開書簡に署名しました。著作権で保護された作品を許可なく学習したAIモデルで作られた作品を売ることは、人間のアーティストの搾取にあたる、という主張です。クリスティーズは予定どおりオークションを開きました。Edmond de Belamy の落札から7年、AIを使った作品は美術市場で売買されるようになった一方で、その学習データのあり方が正面から問われています。
+
+* [Christie's「Augmented Intelligence」](https://onlineonly.christies.com/s/augmented-intelligence/overview/3837)
+* [Christie's「Harold Cohen, Untitled (i23-3758)」(1987)](https://onlineonly.christies.com/s/augmented-intelligence/harold-cohen-1928-2016-1/249740)
+* [TechCrunch「Christie's AI art auction reportedly exceeds expectations」(2025)](https://techcrunch.com/2025/03/06/christies-ai-art-auction-reportedly-exceeds-expectations)
+
+### Refik Anadol「DATALAND」(2026)
+
+2026年6月、ロサンゼルスの中心部に、Refik Anadol とパートナーの Efsun Erkılıç が設立した、AIを使ったアートのための美術館「DATALAND」が開館しました。最初の展覧会「Machine Dreams: Rainforest」(2027年1月まで) では、美術館のアーカイブや研究機関の画像と音、Anadol 自身がブラジルのアマゾンで集めた素材を独自のAIモデルに学習させ、熱帯雨林の映像と音の空間を作り出しています。来場者がリストバンドを着けると、計測された身体のデータに反応して映像が変化する作品もあります。Anadol は自分の制作を、人間と機械が半分ずつ担う共同作業だと説明しています。
+
+一方で、大手IT企業との近い関係や、スミソニアンやオックスフォード大学などが無料で公開しているアーカイブを、入場料49ドルからの営利の美術館のためのモデルづくりに使っていることには、批判もあります。Anadol は、スタジオが開発したモデルは誰でも無料で使えると反論しています。
+
+* [NPR「'Machines are collaborators' at this new museum of AI art」(2026)](https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol)
+
 ### 年表
 
 | 年 | 出来事 |
@@ -117,9 +146,9 @@ DeepDream が描き出したのは、ネットワークが学習した大量の�
 | 2020 | 拡散モデル (DDPM) の論文 |
 | 2021 | OpenAI が DALL·E と CLIP を発表 (1月) |
 | 2022 | DALL·E 2 (4月)、Midjourney (7月)、Stable Diffusion (8月)。MoMA で「Unsupervised」展示 (11月) |
-| 2024 | ホイットニー美術館で「Harold Cohen: AARON」展 |
-| 2025 | ChatGPT の GPT-4o 画像生成 (3月)、Google の Nano Banana (8月) |
-| 2026 | ChatGPT Images 2.0 / 2.5、Nano Banana 2 / 2.1、Midjourney V8 |
+| 2024 | ホイットニー美術館で「Harold Cohen: AARON」展、ホイットニー・ビエンナーレで「xhairymutantx」 |
+| 2025 | クリスティーズ初のAIアートのオークション (2-3月)、ChatGPT の GPT-4o 画像生成 (3月)、Google の Nano Banana (8月) |
+| 2026 | ChatGPT Images 2.0 / 2.5、Nano Banana 2 / 2.1、Midjourney V8。AIアートの美術館 DATALAND が開館 (6月) |
 
 ## 技術の進化: ルールから学習へ
 

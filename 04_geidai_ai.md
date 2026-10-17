@@ -155,9 +155,9 @@ paginate: true
 - 2022年11月から約1年間、ニューヨーク近代美術館 (MoMA) のロビーで展示
 - MoMA の所蔵作品のデータを学習させ、200年以上の近代美術の歴史を **絶えず変化する映像として「夢見させる」**
   - 展示室の光、人の動き、外の天気も映像に影響
-- 所蔵品を学習した作品が、その美術館のロビーを占めた → **賛否両論**
+- のちに、生成AIを使った作品として初めて MoMA が所蔵。一方で「美化されたラバランプ」との酷評も → **賛否両論**
 
-<!-- _footer: '画像出典: [Refik Anadol (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Unsupervised_by_Refik_Anadol.jpg) (CC BY-SA 4.0) / [MoMA「Refik Anadol: Unsupervised」](https://www.moma.org/calendar/exhibitions/5535)' -->
+<!-- _footer: '画像出典: [Refik Anadol (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Unsupervised_by_Refik_Anadol.jpg) (CC BY-SA 4.0) / [MoMA「Refik Anadol: Unsupervised」](https://www.moma.org/calendar/exhibitions/5535) / [NPR (2026)](https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol)' -->
 
 ---
 
@@ -191,6 +191,50 @@ paginate: true
 
 ---
 
+## Herndon & Dryhurst「xhairymutantx」(2024)
+
+- 2024年のホイットニー・ビエンナーレで発表
+- Herndon は有名なミュージシャン → 名前を入れるだけで、AIは彼女に似た画像を生成する
+  - AIは、すでに彼女の姿を学習していた
+- 体の形をゆがめ、赤い髪を大げさにした Herndon の画像で、画像生成モデルを学習
+  - どんなプロンプトでも、ゆがめられた「Holly」が返ってくる
+  - 生成された画像は美術館のサイトに保存され、**これからのAIの学習データ** になりうる
+- **自分の姿を、どこまで自分で決められるのか?** を問う
+
+> 👉 実習の「生成AI自画像」とは逆の方向から、「AIのなかのわたし」を扱った作品
+
+<!-- _footer: '[Whitney Museum of American Art「Holly Herndon and Mat Dryhurst: xhairymutantx」](https://whitney.org/exhibitions/xhairymutantx)' -->
+
+---
+
+## Christie's「Augmented Intelligence」(2025)
+
+- 2025年2〜3月、AIを使った作品だけを集めた **初めてのオークション** (オンライン)
+  - 落札総額は約73万ドル、最高額は Refik Anadol の作品 (27万7200ドル)
+  - コーエンが AARON で描いた1987年のドローイングも出品 (1万1340ドル)
+- 開催前に、約6500人のアーティストが中止を求める公開書簡に署名
+  - 著作権のある作品を許可なく学習したAIで作った作品を売るのは、人間のアーティストの搾取だ
+- クリスティーズは予定どおり開催
+- Edmond de Belamy から7年: 売買される一方で、**学習データのあり方** が正面から問われる
+
+<!-- _footer: '[Christie''s「Augmented Intelligence」](https://onlineonly.christies.com/s/augmented-intelligence/overview/3837) / [TechCrunch (2025)](https://techcrunch.com/2025/03/06/christies-ai-art-auction-reportedly-exceeds-expectations)' -->
+
+---
+
+## Refik Anadol「DATALAND」(2026)
+
+- 2026年6月、ロサンゼルスに開館した **AIを使ったアートのための美術館**
+  - Refik Anadol と Efsun Erkılıç が設立
+- 最初の展覧会「Machine Dreams: Rainforest」(2027年1月まで)
+  - アーカイブの画像と音、アマゾンで集めた素材を独自のAIモデルに学習させる
+  - 来場者の身体のデータに反応して変化する映像も
+- Anadol: 人間と機械が半分ずつ担う共同作業
+- 批判も: 大手IT企業との近い関係、無料公開のアーカイブを営利の美術館に使うこと
+
+<!-- _footer: '[NPR「Machines are collaborators at this new museum of AI art」(2026)](https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol)' -->
+
+---
+
 ## 年表 (1) 1973-2019
 
 | 年 | 出来事 |
@@ -210,9 +254,9 @@ paginate: true
 | 2020 | 拡散モデル (DDPM) の論文 |
 | 2021 | OpenAI が DALL·E と CLIP を発表 (1月) |
 | 2022 | DALL·E 2、Midjourney、Stable Diffusion。MoMA で「Unsupervised」 |
-| 2024 | ホイットニー美術館で「Harold Cohen: AARON」展 |
-| 2025 | ChatGPT の GPT-4o 画像生成 (3月)、Nano Banana (8月) |
-| 2026 | ChatGPT Images 2.0 / 2.5、Nano Banana 2 / 2.1、Midjourney V8 |
+| 2024 | ホイットニー美術館で「Harold Cohen: AARON」展、「xhairymutantx」 |
+| 2025 | Christie's 初のAIアートのオークション、GPT-4o 画像生成、Nano Banana |
+| 2026 | ChatGPT Images 2.0 / 2.5、Nano Banana 2 / 2.1、Midjourney V8、DATALAND 開館 |
 
 ---
 
