@@ -358,11 +358,11 @@ paginate: true
 
 | サービス | 主なモデル | 無料での利用 | 特徴 |
 | :--- | :--- | :--- | :--- |
-| **ChatGPT** (OpenAI) | ChatGPT Images 2.5 | 可 | 対話で生成・修正、文字の描画 |
-| **Gemini** (Google) | Nano Banana 2 / 2.1 | 可 (2.1 は有料) | 対話で編集、写真の合成 |
-| **Midjourney** | V8.2 | 不可 (月額$10〜) | 美的な質感、好みの学習 |
-| **Adobe Firefly** | Firefly Image 5 ほか | 一部 (回数制限) | 商用利用への配慮、他社モデルも |
-| **Stable Diffusion、FLUX** など | 公開されたモデル | 可 (自分のPC) | 自由にカスタマイズ、要GPU |
+| **[ChatGPT](https://chatgpt.com/)** (OpenAI) | ChatGPT Images 2.5 | 可 | 対話で生成・修正、文字の描画 |
+| **[Gemini](https://gemini.google.com/)** (Google) | Nano Banana 2 / 2.1 | 可 (2.1 は有料) | 対話で編集、写真の合成 |
+| **[Midjourney](https://www.midjourney.com/)** | V8.2 | 不可 (月額$10〜) | 美的な質感、好みの学習 |
+| **[Adobe Firefly](https://firefly.adobe.com/)** | Firefly Image 5 ほか | 一部 (回数制限) | 商用利用への配慮、他社モデルも |
+| **[Stable Diffusion](https://stability.ai/stable-image)、[FLUX](https://bfl.ai/)** など | 公開されたモデル | 可 (自分のPC) | 自由にカスタマイズ、要GPU |
 
 > > ⚠️ モデル名や料金、無料の範囲は頻繁に変わる。利用前に公式情報を確認
 

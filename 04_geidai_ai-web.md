@@ -202,11 +202,11 @@ GAN は、学習したデータに似た画像を生み出すのが得意です�
 
 | サービス | 開発 | 主なモデル | 無料での利用 | 特徴 |
 | :--- | :--- | :--- | :--- | :--- |
-| ChatGPT | OpenAI | ChatGPT Images 2.5 | 可 | 対話で生成・修正、文字の描画が得意 |
-| Gemini | Google | Nano Banana 2 / 2.1 | 可 (2.1 は有料プラン) | 対話で編集、写真の合成、高速 |
-| Midjourney | Midjourney | V8.2 | 不可 (月額10ドルから) | 美的な質感、好みの学習 |
-| Adobe Firefly | Adobe | Firefly Image 5 ほか | 一部 (回数に制限) | 商用利用への配慮、他社のモデルも選べる |
-| Stable Diffusion、FLUX など | Stability AI、Black Forest Labs など | 公開されたモデル | 可 (自分のPCで動かす) | 自由にカスタマイズできる、高性能なGPUが必要 |
+| [ChatGPT](https://chatgpt.com/) | OpenAI | ChatGPT Images 2.5 | 可 | 対話で生成・修正、文字の描画が得意 |
+| [Gemini](https://gemini.google.com/) | Google | Nano Banana 2 / 2.1 | 可 (2.1 は有料プラン) | 対話で編集、写真の合成、高速 |
+| [Midjourney](https://www.midjourney.com/) | Midjourney | V8.2 | 不可 (月額10ドルから) | 美的な質感、好みの学習 |
+| [Adobe Firefly](https://firefly.adobe.com/) | Adobe | Firefly Image 5 ほか | 一部 (回数に制限) | 商用利用への配慮、他社のモデルも選べる |
+| [Stable Diffusion](https://stability.ai/stable-image)、[FLUX](https://bfl.ai/) など | Stability AI、Black Forest Labs など | 公開されたモデル | 可 (自分のPCで動かす) | 自由にカスタマイズできる、高性能なGPUが必要 |
 
 ### ChatGPT (OpenAI)
 
