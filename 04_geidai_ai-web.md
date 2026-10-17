@@ -10,7 +10,7 @@
 
 ## スライド資料
 
-* [スライド資料 (PDF)]()
+* [スライド資料 (PDF)](https://drive.google.com/file/d/1wXzPnaetVx2XXyCwpacXOjv_vRCV1RGf/view)
 
 ## 前回の振り返り
 
