@@ -391,8 +391,3 @@ VS Code をインストールできない、GitHub アカウントを作れな�
 * [Visual Studio Code Docs. "Inline suggestions from GitHub Copilot in VS Code."](https://code.visualstudio.com/docs/editing/ai-powered-suggestions)
 * [Visual Studio Code Docs. "Inline chat and Quick Chat."](https://code.visualstudio.com/docs/chat/inline-chat)
 
-## アンケート
-
-本日の講義に参加した方は以下のアンケートに答えてください。
-
-* [アンケートフォーム]()

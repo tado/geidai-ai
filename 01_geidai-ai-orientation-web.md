@@ -302,8 +302,3 @@ p5.js (この講義で使用する環境) と GitHub Copilot (コード生成) �
 * [Text-GPT-p5](https://text-gpt-p5.vercel.app/)
 * [GitHub Copilot](https://github.com/features/copilot)
 
-## アンケート
-
-本日の講義に参加した方は以下のアンケートに答えてください。
-
-* [アンケートフォーム]()
