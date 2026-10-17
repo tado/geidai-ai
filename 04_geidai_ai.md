@@ -233,6 +233,36 @@ paginate: true
 
 ---
 
+## AARON に書き込まれたルール
+
+- **線**: 全体を計画せず、目標と比べながら少しずつ修正して引く (手で描くように)
+- **初期** (1970年代): 「図と地」「内と外」「類似・分割・反復」だけで描く。閉じた形は重ねない
+- **子どもの絵に学ぶ** (1980年〜): 骨組みを作り、なぐり描きを囲むように輪郭を付ける
+- **ものの知識** (1980年代〜)
+  - 「人には頭、胴体、2本の腕、2本の脚」「植物には幹、枝、葉の茂み」
+  - 関節の位置と、それぞれが動く範囲。「頭を大きく」などは標準の寸法の表に当てはめる
+- **構図**: 空いている場所に置く。人や木の数は「いくつか」、理由がなければランダム
+- **描き分け**: 太ももはゆるく、手は細かく
+
+<!-- _footer: '[Cohen「How to Draw Three People in a Botanical Garden」(AAAI-88, 1988)](https://cdn.aaai.org/AAAI/1988/AAAI88-150.pdf)' -->
+
+---
+
+## AARON は一枚ごとの注文を受けない
+
+- AARON には、**一枚ごとの指示を受け取るしくみがない**
+  - コーエンが書いたのは、どんな絵にも通じる「描き方の知識」
+  - AARON は、知っていることをもとに、毎回ちがう絵を自分で描く
+- 調和やバランスといった「美的な原則」は、一切教えていない
+  - 作風は、多くの処理が絡み合った結果として生まれる (コーエン)
+- 1988年の時点で、C 言語で約1万4000行。1枚を描くのに約1時間
+
+> 👉 現在の画像生成AIは、一枚ごとに言葉で注文する。**「指示」の性質がまったく違う**
+
+<!-- _footer: '[Cohen「How to Draw Three People in a Botanical Garden」(AAAI-88, 1988)](https://cdn.aaai.org/AAAI/1988/AAAI88-150.pdf)' -->
+
+---
+
 ## 画風を移す: ニューラル画風変換 (2015-)
 
 ![bg right:35% contain](https://upload.wikimedia.org/wikipedia/commons/7/75/Jimmy_Wales_in_France%2C_with_the_style_of_Munch%27s_%22The_Scream%22_applied_using_neural_style_transfer.jpg)
@@ -360,6 +390,7 @@ paginate: true
 | :--- | :--- | :--- | :--- |
 | **[ChatGPT](https://chatgpt.com/)** (OpenAI) | ChatGPT Images 2.5 | 可 | 対話で生成・修正、文字の描画 |
 | **[Gemini](https://gemini.google.com/)** (Google) | Nano Banana 2 / 2.1 | 可 (2.1 は有料) | 対話で編集、写真の合成 |
+| **[Google Flow](https://flow.google.com/)** (Google) | Nano Banana ほか | 可 | 画像と動画をまとめて制作 |
 | **[Midjourney](https://www.midjourney.com/)** | V8.2 | 不可 (月額$10〜) | 美的な質感、好みの学習 |
 | **[Adobe Firefly](https://firefly.adobe.com/)** | Firefly Image 5 ほか | 一部 (回数制限) | 商用利用への配慮、他社モデルも |
 | **[Stable Diffusion](https://stability.ai/stable-image)、[FLUX](https://bfl.ai/)** など | 公開されたモデル | 可 (自分のPC) | 自由にカスタマイズ、要GPU |
@@ -393,6 +424,21 @@ paginate: true
 - 生成した画像には、AIで作られたことを示す電子透かし (SynthID) が入る
 
 <!-- _footer: '[Gemini「Nano Banana 2」](https://gemini.google/jp/overview/image-generation/) / [Google Gemini 学割プラン](https://gemini.google/jp/students/?hl=ja)' -->
+
+---
+
+## Google Flow (Google)
+
+- https://flow.google.com/
+- 画像生成の Nano Banana と、動画生成の Veo などを、**一つのプロジェクトのなかで使える制作スタジオ**
+- 画像は、標準で無料の **Nano Banana 2 Lite** で生成・編集 (Nano Banana 2.1、Pro にも切り替え可)
+- 「エージェント」に、「ライティングを変えたバリエーションを20枚」のように頼める
+- 「履歴」パネルに、以前のバージョンと生成に使ったプロンプトが残る → 制作の記録に便利
+- 無料でも1日50クレジット (動画の生成などに使う)。**18歳以上** が対象、英語のプロンプト推奨
+
+> > ⚠️ 自分の見た目と声にそっくりな「アバター」(`@me`) も作れるが、顔と声を記録することになる。使う場合は、実習の「顔写真とプライバシー」の注意を確認
+
+<!-- _footer: '[Google Flow ヘルプ「画像を作成、編集する」](https://support.google.com/flow/answer/16729550?hl=ja) / [「クレジットを管理する」](https://support.google.com/flow/answer/16526234?hl=ja) / [「アバターを作成、使用する」](https://support.google.com/flow/answer/17102997?hl=ja)' -->
 
 ---
 
@@ -637,6 +683,7 @@ paginate: true
 
 ## 参考文献 (2)
 
+- [Cohen, H. "How to Draw Three People in a Botanical Garden." Proceedings of AAAI-88.](https://cdn.aaai.org/AAAI/1988/AAAI88-150.pdf) 1988.
 - [Rombach, R. et al. "High-Resolution Image Synthesis with Latent Diffusion Models." arXiv:2112.10752.](https://arxiv.org/abs/2112.10752) 2022.
 - [OpenAI. "Addendum to GPT-4o System Card: 4o image generation."](https://cdn.openai.com/11998be9-5319-4302-bfbf-1167e093f1fb/Native_Image_Generation_System_Card.pdf) 2025.
 - [Whitney Museum of American Art. "Harold Cohen: AARON."](https://whitney.org/exhibitions/harold-cohen-aaron) 2024.

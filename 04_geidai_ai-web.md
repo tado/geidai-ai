@@ -34,7 +34,7 @@
 
 ハロルド・コーエン (Harold Cohen, 1928-2016) は、1960年代のイギリスを代表する画家の一人でした。1966年には、ヴェネチア・ビエンナーレのイギリス館の代表作家にも選ばれています。しかし1968年にカリフォルニア大学サンディエゴ校に移ると、コーエンはコンピュータに絵を描かせる研究に取り組み始めました。1970年代前半には、このプログラムを **「AARON」** と名づけ、スタンフォード大学の人工知能研究所で開発を進めます。AARON は、絵を描くための最も初期のAIプログラムとされています。
 
-AARON は、データから学習するAIではありません。線をどう引くか、形をどう閉じるか、人物や植物をどう配置するかといった、**コーエン自身の描くための知識を、ルールとしてプログラムに書き込んだ** ものです。初期の AARON は、プロッターや紙の上を動き回る描画ロボットを使って、抽象的な線画を描きました。やがて人物や植物を描くようになり、さらにコーエンは、筆で色を塗る機械も自作しています。コーエンは2016年に亡くなるまで、40年以上にわたって AARON の改良を続けました。
+AARON は、データから学習するAIではありません。線をどう引くか、形をどう閉じるか、人物や植物をどう配置するかといった、**コーエン自身の描くための知識を、ルールとしてプログラムに書き込んだ** ものです (具体的な中身は、後の「技術の進化」で紹介します)。初期の AARON は、プロッターや紙の上を動き回る描画ロボットを使って、抽象的な線画を描きました。やがて人物や植物を描くようになり、さらにコーエンは、筆で色を塗る機械も自作しています。コーエンは2016年に亡くなるまで、40年以上にわたって AARON の改良を続けました。
 
 コーエンは、AARON との制作を **共同作業 (コラボレーション)** だと考えていました。2024年には、ニューヨークのホイットニー美術館で展覧会「Harold Cohen: AARON」が開かれ、再現されたプロッターが展示室で実際に絵を描く様子が公開されました。展覧会の解説は、DALL-E や Midjourney、Stable Diffusion が広まった今こそ、AARON が重要な歴史的視点を与えてくれると述べています。作品の画像は、下のリンクから見ることができます。
 
@@ -129,7 +129,20 @@ DeepDream が描き出したのは、ネットワークが学習した大量の�
 
 AARON の中身は、コーエンが書いた **ルールの集まり** です。他人の絵を一枚も学習しておらず、描ける絵はコーエンの知識の範囲に限られます。その代わり、描かれるもののすべてに、コーエンが考えた描き方の筋道が通っています。
 
-* **人間が渡すもの**: 描き方の知識を書き込んだルール (プログラム)
+では、コーエンは AARON に具体的に何を書き込んだのでしょうか。1988年の論文で、コーエン自身が次のような例を挙げています ([Cohen 1988](https://cdn.aaai.org/AAAI/1988/AAAI88-150.pdf))。
+
+* **線の引き方**: 線は最初から全体を計画せず、手で描くときのように、いまの線の状態と目標とを比べながら少しずつ修正して引く。閉じた形は、駐車場をぐるりと回るときに途中の目印を次々に思い浮かべ、その方へ進路を変えながら出発点に戻ってくるようにして描く
+* **初期のルール** (1970年代): 外の世界についての知識は持たず、「図と地」「内と外」「類似・分割・反復」といった区別だけで描く。世界中の岩絵にならって、閉じた形どうしは重ねない
+* **子どもの絵に学んだ方法** (1980年〜): まず「芯」となる骨組みを作り、子どもがなぐり描きを線で囲むように、その周りに輪郭を描く。動物の骨組みを囲ませてみると、アフリカの岩絵のような絵になった
+* **ものについての知識** (1980年代〜): 「人には頭、胴体、2本の腕、2本の脚がある」「植物には幹、枝、葉の茂みがある」。関節がどこにあり、それぞれがどこまで動くか。「頭を大きく」「腕を長く」といった指定は、標準の寸法の表に当てはめて決める
+* **構図**: 基本は「空いている場所に置く」。人物や木の数は「いくつか (たとえば0〜4)」とだけ決めておき、とくに理由がなければランダムに選ぶ。消しゴムを使わないので、手前のものから順に描く
+* **描き分け**: 太ももは骨組みから離してゆるく、手は骨組みに近づけて細かく描く
+
+一方で、調和やバランスといった「美的な原則」は、AARON には一切教えられていません。コーエンは、AARON の作風を、多くの処理が絡み合った結果として生まれるものであり、そこに自分自身の一貫した判断が映っていると考えていました。
+
+そして何より、AARON には **一枚ごとの指示を受け取るしくみがありません**。コーエンが書いたのは、どんな絵にも通じる描き方の知識であって、「次はこういう絵を描いて」という注文ではありませんでした。AARON は、知っていることをもとに、毎回ちがう絵を自分で描きます (1988年の時点で、プログラムは C 言語で約1万4000行あり、1枚を描くのに約1時間かかっていました)。一枚ごとに言葉で注文する現在の画像生成AIとは、「指示」の性質がまったく違います。
+
+* **人間が渡すもの**: 描き方の知識を書き込んだルール (プログラム)。一枚ごとの指示はない
 
 ### 画風を移す: ニューラル画風変換 (2015-)
 
@@ -204,6 +217,7 @@ GAN は、学習したデータに似た画像を生み出すのが得意です�
 | :--- | :--- | :--- | :--- | :--- |
 | [ChatGPT](https://chatgpt.com/) | OpenAI | ChatGPT Images 2.5 | 可 | 対話で生成・修正、文字の描画が得意 |
 | [Gemini](https://gemini.google.com/) | Google | Nano Banana 2 / 2.1 | 可 (2.1 は有料プラン) | 対話で編集、写真の合成、高速 |
+| [Google Flow](https://flow.google.com/) | Google | Nano Banana 2 Lite / 2.1 / Pro | 可 (Nano Banana 2 Lite は無料) | 画像と動画を一つのプロジェクトで制作、エージェント、編集の履歴 |
 | [Midjourney](https://www.midjourney.com/) | Midjourney | V8.2 | 不可 (月額10ドルから) | 美的な質感、好みの学習 |
 | [Adobe Firefly](https://firefly.adobe.com/) | Adobe | Firefly Image 5 ほか | 一部 (回数に制限) | 商用利用への配慮、他社のモデルも選べる |
 | [Stable Diffusion](https://stability.ai/stable-image)、[FLUX](https://bfl.ai/) など | Stability AI、Black Forest Labs など | 公開されたモデル | 可 (自分のPCで動かす) | 自由にカスタマイズできる、高性能なGPUが必要 |
@@ -220,6 +234,15 @@ GAN は、学習したデータに似た画像を生み出すのが得意です�
 
 * [Gemini「Nano Banana 2」](https://gemini.google/jp/overview/image-generation/)
 * [Google Gemini 学割プラン](https://gemini.google/jp/students/?hl=ja)
+
+### Google Flow (Google)
+
+[Google Flow](https://flow.google.com/) は、Google の画像生成モデル Nano Banana と、動画生成モデル Veo などを、一つのプロジェクトのなかで使える制作スタジオです。画像の生成と編集には、標準では無料の **Nano Banana 2 Lite** が使われ、Nano Banana 2.1 や Nano Banana Pro に切り替えることもできます。Gemini をもとにした「エージェント」に、「この画像のバリエーションを、ライティングを変えて20枚作って」のように頼むこともできます。画像を編集しても元の画像は失われず、「履歴」パネルに以前のバージョンと、生成に使ったプロンプトが残るので、制作の記録にも役立ちます。生成した画像は、そのまま動画の素材としても使えます。
+
+Google アカウントがあれば無料で使え、サブスクリプションがなくても1日50クレジットが付与されます (動画の生成などに使います)。利用の対象は18歳以上で、Google は英語のプロンプトを推奨しています。自分の見た目と声にそっくりな「アバター」を作り、プロンプトのなかで「@me」と呼び出す機能もあります。ただし、アバターの作成には自分の顔と声を記録することになるので、使う場合は、実習の「顔写真とプライバシー」の注意をよく読んでからにしてください。
+
+* [Google Flow ヘルプ「Google Flow で画像を作成、編集する」](https://support.google.com/flow/answer/16729550?hl=ja)
+* [Google Flow ヘルプ「Google Flow クレジットを管理する」](https://support.google.com/flow/answer/16526234?hl=ja)
 
 ### Midjourney
 
@@ -366,6 +389,7 @@ AIは、あなたの顔を知りません。AIに「わたし」を描いても�
 * [Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/)
 * [ChatGPT](https://chatgpt.com/)
 * [Gemini](https://gemini.google.com/)
+* [Google Flow](https://flow.google.com/)
 * [Midjourney](https://www.midjourney.com/)
 * [Adobe Firefly](https://firefly.adobe.com/)
 * [Black Forest Labs (FLUX)](https://bfl.ai/)
@@ -383,6 +407,7 @@ AIは、あなたの顔を知りません。AIに「わたし」を描いても�
 * [Karras, T., Laine, S., and Aila, T. "A Style-Based Generator Architecture for Generative Adversarial Networks." arXiv:1812.04948.](https://arxiv.org/abs/1812.04948) 2018.
 * [Ho, J., Jain, A., and Abbeel, P. "Denoising Diffusion Probabilistic Models." arXiv:2006.11239.](https://arxiv.org/abs/2006.11239) 2020.
 * [Radford, A. et al. "Learning Transferable Visual Models From Natural Language Supervision." arXiv:2103.00020.](https://arxiv.org/abs/2103.00020) 2021.
+* [Cohen, H. "How to Draw Three People in a Botanical Garden." Proceedings of AAAI-88.](https://cdn.aaai.org/AAAI/1988/AAAI88-150.pdf) 1988.
 * [Rombach, R. et al. "High-Resolution Image Synthesis with Latent Diffusion Models." arXiv:2112.10752.](https://arxiv.org/abs/2112.10752) 2022.
 * [OpenAI. "Addendum to GPT-4o System Card: 4o image generation."](https://cdn.openai.com/11998be9-5319-4302-bfbf-1167e093f1fb/Native_Image_Generation_System_Card.pdf) 2025.
 * [Whitney Museum of American Art. "Harold Cohen: AARON."](https://whitney.org/exhibitions/harold-cohen-aaron) 2024.
