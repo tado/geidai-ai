@@ -572,7 +572,7 @@ paginate: true
 
 <!-- _class: bigtxt -->
 
-![bg right:50%](https://raw.githubusercontent.com/tado/geidai-ai/main/img/04_aigen_portrate.jpg)
+![bg right:50%](https://raw.githubusercontent.com/tado/geidai-ai/main/img/04_aigen_portrate03.jpg)
 
 # 実習: 生成自画像<br>カメラには写らない<br>本当の私
 
@@ -587,8 +587,9 @@ paginate: true
 ### 条件
 
 - **サービスは自由**: 今日紹介した画像生成AIから選ぶ (ChatGPT や Gemini の無料プランで十分)
-- **言葉 (プロンプト) だけで描く**: 自分の写真は使わない。画像は一切アップロードしない
-  - 生成された画像に、言葉で修正を指示するのはOK
+- **自分の写真は使わない**: 自分の写真はアップロードしない
+  - それ以外の画像 (自分で描いた絵、持ち物や風景の写真など) はアップロードしてOK
+  - ほかの人が写った写真は使わない
 - **表現は自由**: 写実的に、デフォルメして、抽象的に。人の姿がなくてもよい
 - **考察を書く**: 使った画像生成AIサービスと、どのようなプロンプトを用いたのか
 
