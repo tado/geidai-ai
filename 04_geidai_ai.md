@@ -150,7 +150,7 @@ paginate: true
 
 ## Refik Anadol「Unsupervised」(2022-2023)
 
-![height:260](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Unsupervised_by_Refik_Anadol.jpg/1280px-Unsupervised_by_Refik_Anadol.jpg)
+![height:230](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Unsupervised_by_Refik_Anadol.jpg/1280px-Unsupervised_by_Refik_Anadol.jpg)
 
 - 2022年11月から約1年間、ニューヨーク近代美術館 (MoMA) のロビーで展示
 - MoMA の所蔵作品のデータを学習させ、200年以上の近代美術の歴史を **絶えず変化する映像として「夢見させる」**
