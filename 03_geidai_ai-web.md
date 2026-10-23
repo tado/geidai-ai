@@ -4,7 +4,7 @@ date: "2026-10-11T14:07:54+09:00"
 lastmod: "2026-10-16T12:11:50+09:00"
 url: "/geidai-ai26/19817.html"
 categories: ["geidai-ai26"]
-summary: "今回は「AIと書く – 予測と意図のあいだで」というテーマで、AIによるテキストの補完を使いながら文章を書く実習を行います。"
+summary: "今回は「AIと書く – 次の言葉を選ぶのは誰か」というテーマで、AIによるテキストの補完を使いながら文章を書く実習を行います。"
 image: "/wp-content/uploads/2026/10/hp01.jpg"
 wp_id: 19817
 shortlink: "https://wp.me/pU1U9-59D"
