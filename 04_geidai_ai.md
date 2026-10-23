@@ -89,6 +89,16 @@ paginate: true
 
 ---
 
+## AARON のプロッター (ホイットニー美術館, 2024)
+
+[![height:330](https://img.youtube.com/vi/uhxlFOKg17s/maxresdefault.jpg)](https://www.youtube.com/watch?v=uhxlFOKg17s)
+
+- 展覧会「Harold Cohen: AARON」で、再現されたプロッターが AARON の絵を描く様子 (画像をクリックすると動画へ)
+
+<!-- _footer: '画像出典: [Harold Cohen: AARON | Plotter Demonstration (YouTube)](https://youtu.be/uhxlFOKg17s) (Whitney Museum of American Art)' -->
+
+---
+
 ## Google「DeepDream」(2015)
 
 ![bg right:35% contain](https://upload.wikimedia.org/wikipedia/commons/d/d0/%22Mona_Lisa%22_with_DeepDream_effect_using_VGG16_network_trained_on_ImageNet.jpg)
@@ -203,7 +213,17 @@ paginate: true
 
 > 👉 AIに描かせる側ではなく、AIに描かれる側から「AIのなかのわたし」を扱った作品
 
-<!-- _footer: '[Whitney Museum of American Art「Holly Herndon and Mat Dryhurst: xhairymutantx」](https://whitney.org/exhibitions/xhairymutantx)' -->
+<!-- _footer: '[Whitney Museum of American Art「Holly Herndon and Mat Dryhurst: xhairymutantx」](https://whitney.org/exhibitions/xhairymutantx) / [xhairymutantx プロジェクトページ](https://xhairymutantx.whitney.org/)' -->
+
+---
+
+## xhairymutantx の生成画面 (Whitney artport)
+
+[![height:330](https://img.youtube.com/vi/yZe5fnFB-ZE/maxresdefault.jpg)](https://www.youtube.com/watch?v=yZe5fnFB-ZE)
+
+- どんなプロンプトを入力しても、ゆがめられた「Holly」が生成される (画像をクリックすると動画へ)
+
+<!-- _footer: '画像出典: [Exploring AI and identity with Holly Herndon and Mat Dryhurst | xhairymutantx | Whitney artport (YouTube)](https://youtu.be/yZe5fnFB-ZE) (Whitney Museum of American Art)' -->
 
 ---
 
@@ -221,6 +241,16 @@ paginate: true
 
 ---
 
+## Augmented Intelligence の告知映像 (Christie's)
+
+[![height:330](https://img.youtube.com/vi/jCa0Sao01BY/maxresdefault.jpg)](https://www.youtube.com/watch?v=jCa0Sao01BY)
+
+- クリスティーズが公開した、オークション「Augmented Intelligence」の紹介映像 (画像をクリックすると動画へ)
+
+<!-- _footer: '画像出典: [What is AI Art? You Decide. | Christie''s (YouTube)](https://youtu.be/jCa0Sao01BY) (Christie''s)' -->
+
+---
+
 ## Refik Anadol「DATALAND」(2026)
 
 - 2026年6月、ロサンゼルスに開館した **AIを使ったアートのための美術館**
@@ -231,7 +261,17 @@ paginate: true
 - Anadol: 人間と機械が半分ずつ担う共同作業
 - 批判も: 大手IT企業との近い関係、無料公開のアーカイブを営利の美術館に使うこと
 
-<!-- _footer: '[NPR「Machines are collaborators at this new museum of AI art」(2026)](https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol)' -->
+<!-- _footer: '[NPR「Machines are collaborators at this new museum of AI art」(2026)](https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol) / [DATALAND](https://dataland.art/)' -->
+
+---
+
+## DATALAND「Machine Dreams: Rainforest」
+
+[![height:330](https://img.youtube.com/vi/I0ZEZlI3J0s/maxresdefault.jpg)](https://www.youtube.com/watch?v=I0ZEZlI3J0s)
+
+- DATALAND が公開した、開館時の展覧会「Machine Dreams: Rainforest」の予告映像 (画像をクリックすると動画へ)
+
+<!-- _footer: '画像出典: [Dataland / Launch Teaser / June 20 (YouTube)](https://youtu.be/I0ZEZlI3J0s) (DATALAND)' -->
 
 ---
 

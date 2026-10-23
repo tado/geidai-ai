@@ -30,6 +30,10 @@
 
 ### ハロルド・コーエン「AARON」(1973-)
 
+[![](https://img.youtube.com/vi/uhxlFOKg17s/maxresdefault.jpg)](https://www.youtube.com/watch?v=uhxlFOKg17s)
+
+<small>画像出典: [Harold Cohen: AARON | Plotter Demonstration (YouTube)](https://youtu.be/uhxlFOKg17s) (Whitney Museum of American Art)</small>
+
 ハロルド・コーエン (Harold Cohen, 1928-2016) は、1960年代のイギリスを代表する画家の一人でした。1966年には、ヴェネチア・ビエンナーレのイギリス館の代表作家にも選ばれています。しかし1968年にカリフォルニア大学サンディエゴ校に移ると、コーエンはコンピュータに絵を描かせる研究に取り組み始めました。1970年代前半には、このプログラムを **「AARON」** と名づけ、スタンフォード大学の人工知能研究所で開発を進めます。AARON は、絵を描くための最も初期のAIプログラムとされています。
 
 AARON は、データから学習するAIではありません。線をどう引くか、形をどう閉じるか、人物や植物をどう配置するかといった、**コーエン自身の描くための知識を、ルールとしてプログラムに書き込んだ** ものです (具体的な中身は、後の「技術の進化」で紹介します)。初期の AARON は、プロッターや紙の上を動き回る描画ロボットを使って、抽象的な線画を描きました。やがて人物や植物を描くようになり、さらにコーエンは、筆で色を塗る機械も自作しています。コーエンは2016年に亡くなるまで、40年以上にわたって AARON の改良を続けました。
@@ -110,15 +114,24 @@ DeepDream が描き出したのは、ネットワークが学習した大量の�
 
 ### Holly Herndon と Mat Dryhurst「xhairymutantx」(2024)
 
+[![](https://img.youtube.com/vi/yZe5fnFB-ZE/maxresdefault.jpg)](https://www.youtube.com/watch?v=yZe5fnFB-ZE)
+
+<small>画像出典: [Exploring AI and identity with Holly Herndon and Mat Dryhurst | xhairymutantx | Whitney artport (YouTube)](https://youtu.be/yZe5fnFB-ZE) (Whitney Museum of American Art)</small>
+
 ベルリンを拠点とするアーティストの Holly Herndon と Mat Dryhurst は、2024年のホイットニー・ビエンナーレで「xhairymutantx」を発表しました。Herndon はよく知られたミュージシャンなので、DALL·E や Midjourney、Stable Diffusion に名前を入力するだけで、彼女の特徴をもった画像が生成されます。AIは、すでに彼女の姿を学習していました。
 
 そこで2人は、衣装で体の形をゆがめ、いちばんの特徴である赤い髪を大げさに強調した Herndon の画像を用意し、それを学習させた画像生成モデルを作りました。このモデルは、どんなプロンプトを入力しても、ゆがめられた「Holly」の画像を返します。生成された画像は美術館のウェブサイトのギャラリーに保存され、インターネットを通じて、これからのAIの学習データになっていく可能性があります。AIは美術館のサイトを信頼できる情報源として扱うので、2人はそれを利用して、AIのなかの「Holly」の姿に影響を与えようとしました。インターネットの上で、自分の姿をどこまで自分で決められるのかを問う作品です。
 
 AIに描かせる側ではなく、AIに描かれる側から、「AIのなかのわたし」を扱った作品だといえます。
 
+* [Holly Herndonによるxhairymutantxプロジェクトページ](https://xhairymutantx.whitney.org/)
 * [Whitney Museum of American Art「Holly Herndon and Mat Dryhurst: xhairymutantx」](https://whitney.org/exhibitions/xhairymutantx)
 
 ### Christie's「Augmented Intelligence」(2025)
+
+[![](https://img.youtube.com/vi/jCa0Sao01BY/maxresdefault.jpg)](https://www.youtube.com/watch?v=jCa0Sao01BY)
+
+<small>画像出典: [What is AI Art? You Decide. | Christie's (YouTube)](https://youtu.be/jCa0Sao01BY) (Christie's)</small>
 
 2025年2月20日から3月5日まで、クリスティーズは、AIを使った作品だけを集めた初めてのオークション「Augmented Intelligence」をオンラインで開きました。落札総額は約73万ドルで、最高額は Refik Anadol の作品の27万7200ドルでした。ハロルド・コーエンが AARON で描いた1987年のドローイングも出品され、1万1340ドルで落札されています。
 
@@ -130,10 +143,15 @@ AIに描かせる側ではなく、AIに描かれる側から、「AIのなか�
 
 ### Refik Anadol「DATALAND」(2026)
 
+[![](https://img.youtube.com/vi/I0ZEZlI3J0s/maxresdefault.jpg)](https://www.youtube.com/watch?v=I0ZEZlI3J0s)
+
+<small>画像出典: [Dataland / Launch Teaser / June 20 (YouTube)](https://youtu.be/I0ZEZlI3J0s) (DATALAND)</small>
+
 2026年6月、ロサンゼルスの中心部に、Refik Anadol とパートナーの Efsun Erkılıç が設立した、AIを使ったアートのための美術館「DATALAND」が開館しました。最初の展覧会「Machine Dreams: Rainforest」(2027年1月まで) では、美術館のアーカイブや研究機関の画像と音、Anadol 自身がブラジルのアマゾンで集めた素材を独自のAIモデルに学習させ、熱帯雨林の映像と音の空間を作り出しています。来場者がリストバンドを着けると、計測された身体のデータに反応して映像が変化する作品もあります。Anadol は自分の制作を、人間と機械が半分ずつ担う共同作業だと説明しています。
 
 一方で、大手IT企業との近い関係や、スミソニアンやオックスフォード大学などが無料で公開しているアーカイブを、入場料49ドルからの営利の美術館のためのモデルづくりに使っていることには、批判もあります。Anadol は、スタジオが開発したモデルは誰でも無料で使えると反論しています。
 
+* [DATALAND](https://dataland.art/)
 * [NPR「'Machines are collaborators' at this new museum of AI art」(2026)](https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol)
 
 ### 年表
