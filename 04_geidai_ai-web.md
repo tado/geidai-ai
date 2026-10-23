@@ -1,4 +1,15 @@
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/04_aigen_portrate03.jpg)
+---
+title: "何を渡して描かせるか – 画像生成AIの50年"
+date: 2026-10-22T07:16:29+09:00
+url: "/geidai-ai26/19911.html"
+# WordPress 時代の記事 (19910) を書き直したもの。古い URL はここに転送する
+aliases: ["/geidai-ai26/19910.html"]
+categories: ["geidai-ai26"]
+---
+
+[![](https://img.youtube.com/vi/uhxlFOKg17s/maxresdefault.jpg)](https://www.youtube.com/watch?v=uhxlFOKg17s)
+
+<small>画像出典: [Harold Cohen: AARON | Plotter Demonstration (YouTube)](https://youtu.be/uhxlFOKg17s) (Whitney Museum of American Art)</small>
 
 今回は「何を渡して描かせるか - 画像生成AIの50年」というテーマで、画像生成AIを取り上げます。
 

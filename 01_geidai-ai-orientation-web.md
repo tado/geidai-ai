@@ -1,3 +1,14 @@
+---
+title: "人工知能と創作 – オリエンテーション"
+date: "2026-09-27T15:59:22+09:00"
+lastmod: "2026-09-29T14:45:46+09:00"
+url: "/geidai-ai26/19710.html"
+categories: ["geidai-ai26"]
+summary: "「人工知能と創作」初回は、まずこの講義の概要と進め方について説明していきます。講義概要の説明に続いて、生成AIとの付き合い方について考えます。国内外の芸術系大学のガイドラインを参照しながら、この講義で生成AIをどのように扱っていくのかを説明します。最後に、昨年度の「人工知能と創作2025」の内容を振り返り、今年度の講義の方針について紹介します。"
+wp_id: 19710
+shortlink: "https://wp.me/pU1U9-57U"
+---
+
 ![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/01_slide12.png)
 
 「人工知能と創作」初回は、まずこの講義の概要と進め方について説明していきます。
@@ -301,4 +312,5 @@ p5.js (この講義で使用する環境) と GitHub Copilot (コード生成) �
 * [Google Gemini 学割プラン](https://gemini.google/jp/students/?hl=ja)
 * [Text-GPT-p5](https://text-gpt-p5.vercel.app/)
 * [GitHub Copilot](https://github.com/features/copilot)
+
 

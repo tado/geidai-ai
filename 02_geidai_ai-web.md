@@ -1,3 +1,15 @@
+---
+title: "生成AI – 熱狂と拒絶のあいだで"
+date: "2026-10-06T14:30:27+09:00"
+lastmod: "2026-10-09T10:46:38+09:00"
+url: "/geidai-ai26/19773.html"
+categories: ["geidai-ai26"]
+summary: "今回は「生成AI – 熱狂と拒絶のあいだで」というテーマで、生成AIと創作をめぐる現在の状況について考えます。 まず、AIを使った作品をめぐって起きた3つの出来事を手がかりに、「AIが作った」というラベルが何を見えなくしてしまうのかを考えます。続いて、生成AIが実際に何をしているのか、学習と生成のしくみ、そしてAIが「平均」へと引き寄せられる性質について、制作者の立場から最小限知っておきたいことを…"
+image: "/wp-content/uploads/2026/10/1280px-ThC3A9C3A2tre_DE28099opC3A9ra_Spatial.jpg"
+wp_id: 19773
+shortlink: "https://wp.me/pU1U9-58V"
+---
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.jpg/1280px-Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.jpg)
 
 <small>画像出典: Jason M. Allen「Théâtre D'opéra Spatial」(2022), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.jpg) (Public domain)</small>
