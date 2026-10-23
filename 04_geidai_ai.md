@@ -85,7 +85,7 @@ paginate: true
 - 2024年、ホイットニー美術館で展覧会「Harold Cohen: AARON」
   - 再現されたプロッターが、展示室で実際に絵を描いた
 
-<!-- _footer: '作品の画像は [Whitney Museum of American Art「Harold Cohen: AARON」](https://whitney.org/exhibitions/harold-cohen-aaron) で見られる' -->
+<!-- _footer: '作品の画像は [Whitney Museum of American Art「Harold Cohen: AARON」](https://whitney.org/exhibitions/harold-cohen-aaron) で見られる / [Harold Cohen: AARON | Plotter Demonstration (YouTube)](https://www.youtube.com/watch?v=uhxlFOKg17s)' -->
 
 ---
 
@@ -99,7 +99,7 @@ paginate: true
 - 描き出されたのは、学習した大量の写真の **記憶** のようなもの
 - インターネットで大流行し、多くの人が初めて「AIが描いた絵」を目にした
 
-<!-- _footer: '画像出典: [P.J. Finlay「"Mona Lisa" with DeepDream effect」](https://commons.wikimedia.org/wiki/File:%22Mona_Lisa%22_with_DeepDream_effect_using_VGG16_network_trained_on_ImageNet.jpg) (CC0) / [Google Research Blog「Inceptionism」](https://research.google/blog/inceptionism-going-deeper-into-neural-networks/)' -->
+<!-- _footer: '画像出典: [P.J. Finlay「"Mona Lisa" with DeepDream effect」](https://commons.wikimedia.org/wiki/File:%22Mona_Lisa%22_with_DeepDream_effect_using_VGG16_network_trained_on_ImageNet.jpg) (CC0) / [Google Research Blog「Inceptionism」](https://research.google/blog/inceptionism-going-deeper-into-neural-networks/) / [Memo Akten「Journey through the layers of the mind」(2015)](https://vimeo.com/132462576)' -->
 
 ---
 
@@ -128,7 +128,7 @@ paginate: true
   - Obvious? Barrat? それとも GAN?
 - この落札をきっかけに、**「描いたのは誰か」** が広く議論されるように
 
-<!-- _footer: '画像出典: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Edmond_de_Belamy.png) (Public domain)' -->
+<!-- _footer: '画像出典: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Edmond_de_Belamy.png) (Public domain) / [Robbie Barrat「art-DCGAN」(GitHub)](https://github.com/robbiebarrat/art-DCGAN)' -->
 
 ---
 

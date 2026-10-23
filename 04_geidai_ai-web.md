@@ -1,6 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Edmond_de_Belamy.png/1280px-Edmond_de_Belamy.png)
-
-<small>画像出典: Obvious「Edmond de Belamy」(2018), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Edmond_de_Belamy.png) (Public domain)</small>
+![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/04_aigen_portrate03.jpg)
 
 今回は「何を渡して描かせるか - 画像生成AIの50年」というテーマで、画像生成AIを取り上げます。
 
@@ -38,8 +36,10 @@ AARON は、データから学習するAIではありません。線をどう引
 
 コーエンは、AARON との制作を **共同作業 (コラボレーション)** だと考えていました。2024年には、ニューヨークのホイットニー美術館で展覧会「Harold Cohen: AARON」が開かれ、再現されたプロッターが展示室で実際に絵を描く様子が公開されました。展覧会の解説は、DALL-E や Midjourney、Stable Diffusion が広まった今こそ、AARON が重要な歴史的視点を与えてくれると述べています。作品の画像は、下のリンクから見ることができます。
 
+* [Harold Cohen: AARON | Plotter Demonstration](https://www.youtube.com/watch?v=uhxlFOKg17s)
 * [Whitney Museum of American Art「Harold Cohen: AARON」(2024)](https://whitney.org/exhibitions/harold-cohen-aaron)
 * [AARON (Wikipedia)](https://en.wikipedia.org/wiki/AARON)
+ 
 
 ### Google「DeepDream」(2015)
 
@@ -52,6 +52,7 @@ AARON は、データから学習するAIではありません。線をどう引
 DeepDream が描き出したのは、ネットワークが学習した大量の写真の **記憶** のようなものでした。学習に使われた写真には、さまざまな犬種の犬が数多く含まれていたため、どんな画像からも犬の姿が浮かび上がってきます。そのサイケデリックで不気味な画像はインターネットで大流行し、多くの人が初めて「AIが描いた絵」を目にするきっかけとなりました。
 
 * [Google Research Blog「Inceptionism: Going Deeper into Neural Networks」(2015)](https://research.google/blog/inceptionism-going-deeper-into-neural-networks/)
+* [DeepDreamを活用した作品 - Memo Akten, Journey through the layers of the mind (2015)](https://vimeo.com/132462576)
 
 ### Obvious「Edmond de Belamy」(2018)
 
@@ -64,6 +65,7 @@ DeepDream が描き出したのは、ネットワークが学習した大量の�
 画面の右下には、画家のサインの代わりに、GAN の学習に使われる **数式** が記されています。まるでAI自身が作者であるかのような演出です。しかし、Obvious が使ったプログラムは、当時19歳だった Robbie Barrat がインターネットで公開していたコードを土台にしたものでした。作品を生んだのは Obvious なのか、Barrat なのか、それとも GAN なのか。この高額での落札をきっかけに、**「描いたのは誰か」** という問いが広く議論されるようになりました。
 
 * [Christie's の解説記事 (2018)](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx)
+* [Robbie Barratの公開していたコード - art-DCGAN](https://github.com/robbiebarrat/art-DCGAN)
 
 ### Anna Ridler「Mosaic Virus」(2018-2019)
 
@@ -356,4 +358,3 @@ Google アカウントがあれば無料で使え、サブスクリプション�
 * [Whitney Museum of American Art. "Harold Cohen: AARON."](https://whitney.org/exhibitions/harold-cohen-aaron) 2024.
 * [Greenberger, A.「『絵を描くコンピュータ』から『ディープフェイク作品』まで、AIアートの歴史を知るための25作品」ARTnews JAPAN.](https://artnewsjapan.com/article/2695) 2024.
 * [白井暁彦「画像生成AIの誕生と変遷(2)画像生成技術の歴史年表」note.](https://note.com/o_ob/n/n971483495ef3) 2024.
-
