@@ -16,7 +16,7 @@ categories: ["geidai-ai26"]
 
 ## スライド資料
 
-* [スライド資料 (PDF)]()
+* [スライド資料 (PDF)](https://drive.google.com/file/d/1eedDy0Jsp_FDgNUTuwFTCjuv362PJi_u/view?usp=sharing)
 
 ## 映像: HOW TO SEE LIKE A MACHINE
 
