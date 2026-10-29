@@ -142,7 +142,7 @@ Paglen は、AIが解決できる難しい問題はあるとしつつ、AIを動
 
 #### ブロンボス洞窟の線刻 (紀元前7万1千年)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/blombos-cave-drawing.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/blombos-cave-drawing.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/blombos-cave-drawing.jpg" alt="ブロンボス洞窟の線刻 (紀元前7万1千年)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 南アフリカの洞窟で見つかった、知られているかぎり最古の描画です。規則的に引かれた格子状の線は、手作業で実行された「アルゴリズム」ともいえます。[→ Timeline](https://timeline.lerandom.art/m/blombos-cave-drawing)
 
@@ -152,25 +152,25 @@ Paglen は、AIが解決できる難しい問題はあるとしつつ、AIを動
 
 #### John Venn「ランダムさの図示」(1888)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-venns-graphical-indication-of-randomness-appears-in-the-logic-of-chance.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-venns-graphical-indication-of-randomness-appears-in-the-logic-of-chance.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-venns-graphical-indication-of-randomness-appears-in-the-logic-of-chance.jpg" alt="John Venn「ランダムさの図示」(1888)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 論理学者のヴェンが『The Logic of Chance』に載せた図です。「どの瞬間にも、どの方向へ進むのも同じ確率」という一つの規則から、ランダムな線が生まれます。[→ Timeline](https://timeline.lerandom.art/m/john-venns-graphical-indication-of-randomness-appears-in-the-logic-of-chance)
 
 #### Piet Mondrian「Composition with Lines」(1917)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/composition-with-lines-by-piet-mondrian.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/composition-with-lines-by-piet-mondrian.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/composition-with-lines-by-piet-mondrian.jpg" alt="Piet Mondrian「Composition with Lines」(1917)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 短い縦線と横線だけで構成されたモンドリアンの絵画です。のちに A. Michael Noll が、コンピュータで生成した絵と見比べる実験に使いました。[→ Timeline](https://timeline.lerandom.art/m/composition-with-lines-by-piet-mondrian)
 
 #### チューリングマシンの考案 (1936)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/alan-turing-describes-the-turing-machine-f74569643f.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/alan-turing-describes-the-turing-machine-f74569643f.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/alan-turing-describes-the-turing-machine-f74569643f.png" alt="チューリングマシンの考案 (1936)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 アラン・チューリングが、テープに記号を読み書きして計算を進める仮想の機械を考案しました。現代のコンピュータの理論的な基礎です。[→ Timeline](https://timeline.lerandom.art/m/alan-turing-describes-the-turing-machine)
 
 #### ENIAC の開発 (1945)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/eniac-developed.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/eniac-developed.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/eniac-developed.jpg" alt="ENIAC の開発 (1945)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 約1万9千本の真空管を使った、最初期の汎用電子デジタルコンピュータです。重さは30トンを超え、現代のコンピュータの原型となりました。[→ Timeline](https://timeline.lerandom.art/m/eniac-developed)
 
@@ -180,25 +180,25 @@ Paglen は、AIが解決できる難しい問題はあるとしつつ、AIを動
 
 #### チューリング・テストの提案 (1950)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/alan-turing-proposes-the-turing-test.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/alan-turing-proposes-the-turing-test.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/alan-turing-proposes-the-turing-test.png" alt="チューリング・テストの提案 (1950)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 対話の相手が人間か機械かを見分けられなければ、その機械は「考えている」とみなせる、という判定方法をチューリングが提案しました。[→ Timeline](https://timeline.lerandom.art/m/alan-turing-proposes-the-turing-test)
 
 #### Ben Laposky「Electronic Abstractions」(1952)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/electronic-abstractions-by-ben-laposky.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/electronic-abstractions-by-ben-laposky.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/electronic-abstractions-by-ben-laposky.jpg" alt="Ben Laposky「Electronic Abstractions」(1952)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 電子回路がオシロスコープに描く波形を写真に撮った作品で、本人は「Oscillons」と呼びました。電子的に生成された、最初期の画像です。[→ Timeline](https://timeline.lerandom.art/m/electronic-abstractions-by-ben-laposky)
 
 #### Herbert W. Franke のオシログラフ作品 (1956)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/herbert-w-franke-begins-creating-art-with-an-oscillograph.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/herbert-w-franke-begins-creating-art-with-an-oscillograph.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/herbert-w-franke-begins-creating-art-with-an-oscillograph.jpg" alt="Herbert W. Franke のオシログラフ作品 (1956)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 陰極線オシログラフで描いた「Pendular Oscillogram」は、Laposky の作品と並ぶ、最初期の (アナログな) コンピュータ・アートです。[→ Timeline](https://timeline.lerandom.art/m/herbert-w-franke-begins-creating-art-with-an-oscillograph)
 
 #### Max Mathews「MUSIC I」(1957)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/max-mathews-develops-music-i-b37c65cfe6.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/max-mathews-develops-music-i-b37c65cfe6.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/max-mathews-develops-music-i-b37c65cfe6.jpg" alt="Max Mathews「MUSIC I」(1957)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ベル研究所で開発された作曲用のプログラム言語です。IBM 704 が17秒の曲を演奏し、コンピュータで合成された最初の音楽となりました。[→ Timeline](https://timeline.lerandom.art/m/max-mathews-develops-music-i)
 
@@ -208,67 +208,67 @@ Paglen は、AIが解決できる難しい問題はあるとしつつ、AIを動
 
 #### Ivan Sutherland「Sketchpad」(1963)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/ivan-sutherland-invents-sketchpad.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/ivan-sutherland-invents-sketchpad.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/ivan-sutherland-invents-sketchpad.jpg" alt="Ivan Sutherland「Sketchpad」(1963)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ライトペンで画面に直接図形を描ける、最初期のグラフィカル・ユーザー・インターフェースです。対話型のコンピュータグラフィックスの出発点となりました。[→ Timeline](https://timeline.lerandom.art/m/ivan-sutherland-invents-sketchpad)
 
 #### A. Michael Noll「Gaussian Quadratic」(1963)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/gaussian-quadratic-by-a-michael-noll.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/gaussian-quadratic-by-a-michael-noll.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/gaussian-quadratic-by-a-michael-noll.jpg" alt="A. Michael Noll「Gaussian Quadratic」(1963)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ベル研究所で制作された作品です。100個の点を99本の線で結んだ図形で、点の横の位置は乱数 (ガウス分布) で、縦の位置は二次式で決まります。[→ Timeline](https://timeline.lerandom.art/m/gaussian-quadratic-by-a-michael-noll)
 
 #### 川野洋のアルゴリズムによる画像 (1964)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/hiroshi-kawano-publishes-his-first-algorithmic-images-51641e35f3.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/hiroshi-kawano-publishes-his-first-algorithmic-images-51641e35f3.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/hiroshi-kawano-publishes-his-first-algorithmic-images-51641e35f3.jpg" alt="川野洋のアルゴリズムによる画像 (1964)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 美学者の川野洋が、コンピュータで生成した最初の画像を発表しました。コンピュータに「人工の創造性」を見いだし、のちに文学や音楽の生成にも取り組みます。[→ Timeline](https://timeline.lerandom.art/m/hiroshi-kawano-publishes-his-first-algorithmic-images)
 
 #### A. Michael Noll「Computer Composition with Lines」(1964)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/computer-composition-with-lines-by-a-michael-noll.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/computer-composition-with-lines-by-a-michael-noll.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/computer-composition-with-lines-by-a-michael-noll.jpg" alt="A. Michael Noll「Computer Composition with Lines」(1964)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 モンドリアンの絵を参照して生成した作品です。2枚を並べた実験で、コンピュータの作品を見分けられたのは28%で、59%がコンピュータの作品を好みました。[→ Timeline](https://timeline.lerandom.art/m/computer-composition-with-lines-by-a-michael-noll)
 
 #### Georg Nees「Computergrafik」展 (1965)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-worlds-first-public-computer-art-exhibit-computer-grafik-by-georg-nees-and-f-87b8b79cd7.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-worlds-first-public-computer-art-exhibit-computer-grafik-by-georg-nees-and-f-87b8b79cd7.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-worlds-first-public-computer-art-exhibit-computer-grafik-by-georg-nees-and-f-87b8b79cd7.jpg" alt="Georg Nees「Computergrafik」展 (1965)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 シュトゥットガルト工科大学の小さな画廊で開かれた、アルゴリズムで生成したコンピュータ・アートの世界初の画廊展です。展示作家はネースひとりでした。[→ Timeline](https://timeline.lerandom.art/m/the-worlds-first-public-computer-art-exhibit-computer-grafik-by-georg-nees-and-f)
 
 #### Frieder Nake「13/9/65 Nr. 2 (Hommage à Paul Klee)」(1965)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/13-9-65-nr-2-hommage-a-paul-klee-by-frieder-nake.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/13-9-65-nr-2-hommage-a-paul-klee-by-frieder-nake.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/13-9-65-nr-2-hommage-a-paul-klee-by-frieder-nake.jpg" alt="Frieder Nake「13/9/65 Nr. 2 (Hommage à Paul Klee)」(1965)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 パウル・クレーの絵画「Hauptweg und Nebenwege」(1929) に着想を得たプロッター・ドローイングです。クレーを再現するのではなく、その構成をアルゴリズムで探りました。[→ Timeline](https://timeline.lerandom.art/m/13-9-65-nr-2-hommage-a-paul-klee-by-frieder-nake)
 
 #### CTG (Computer Technique Group) の結成 (1966)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/ctg-pioneers-digital-generative-systems.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/ctg-pioneers-digital-generative-systems.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/ctg-pioneers-digital-generative-systems.jpg" alt="CTG (Computer Technique Group) の結成 (1966)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 幸村真佐男や槌屋治紀ら、東京の学生が結成したグループです。アーティストを「システムをつくる人」と捉え、生成芸術の歴史でもっとも重要な集団のひとつとされます。[→ Timeline](https://timeline.lerandom.art/m/ctg-pioneers-digital-generative-systems)
 
 #### ELIZA の発表 (1966)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/joseph-weizenbaum-publishes-eliza.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/joseph-weizenbaum-publishes-eliza.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/joseph-weizenbaum-publishes-eliza.png" alt="ELIZA の発表 (1966)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ジョセフ・ワイゼンバウムが MIT で開発した対話プログラムです。パターンの照合だけで会話を続け、のちのチャットボットの先駆けとなりました。[→ Timeline](https://timeline.lerandom.art/m/joseph-weizenbaum-publishes-eliza)
 
 #### 「Cybernetic Serendipity」展 (1968)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/cybernetic-serendipity-defines-a-movement-85ef4e2520.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/cybernetic-serendipity-defines-a-movement-85ef4e2520.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/cybernetic-serendipity-defines-a-movement-85ef4e2520.jpg" alt="「Cybernetic Serendipity」展 (1968)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ジャシア・ライヒャルトがロンドンの ICA で企画した、コンピュータ・アートの最初の国際展です。絵画や音楽、詩、ロボットまで、技術と創造性の関係を幅広く紹介しました。[→ Timeline](https://timeline.lerandom.art/m/cybernetic-serendipity-defines-a-movement)
 
 #### Vera Molnár「Interruptions」(1968-1969)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/vera-molnar-begins-her-computer-art-phase-with-the-interruptions-series.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/vera-molnar-begins-her-computer-art-phase-with-the-interruptions-series.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/vera-molnar-begins-her-computer-art-phase-with-the-interruptions-series.jpg" alt="Vera Molnár「Interruptions」(1968-1969)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 格子の各マスに傾きの異なる線を置き、ところどころを空白にする自作のアルゴリズムで描いたシリーズです。モルナールのコンピュータ・アートの出発点です。[→ Timeline](https://timeline.lerandom.art/m/vera-molnar-begins-her-computer-art-phase-with-the-interruptions-series)
 
 #### Sol LeWitt「Wall Drawings」(1968-)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/sol-lewitt-brings-his-wall-drawings-6bba1f1526.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/sol-lewitt-brings-his-wall-drawings-6bba1f1526.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/sol-lewitt-brings-his-wall-drawings-6bba1f1526.jpg" alt="Sol LeWitt「Wall Drawings」(1968-)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 壁に描く手順を言葉で指示し、実際に描くのは他の人に任せた作品です。作者とは誰か、作品は永続するものか、という考え方を問い直しました。[→ Timeline](https://timeline.lerandom.art/m/sol-lewitt-brings-his-wall-drawings)
 
@@ -278,25 +278,25 @@ Paglen は、AIが解決できる難しい問題はあるとしつつ、AIを動
 
 #### コンウェイの「ライフゲーム」(1970)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-conway-publishes-landmark-the-game-of-life.gif)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-conway-publishes-landmark-the-game-of-life.gif" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-conway-publishes-landmark-the-game-of-life.gif" alt="コンウェイの「ライフゲーム」(1970)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 マーティン・ガードナーが雑誌『Scientific American』で紹介しました。周りのマスの状態で各マスの生死が決まる単純な規則から、複雑な模様が現れます。[→ Timeline](https://timeline.lerandom.art/m/john-conway-publishes-landmark-the-game-of-life)
 
 #### アタリ「Pong」(1972)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/noland-bushnell-invents-first-video-game-pong.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/noland-bushnell-invents-first-video-game-pong.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/noland-bushnell-invents-first-video-game-pong.jpg" alt="アタリ「Pong」(1972)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 商業的に成功した最初期のビデオゲームです。インタラクティブな電子の遊びを世界に広め、ゲームを表現の場として捉える流れのもとになりました。[→ Timeline](https://timeline.lerandom.art/m/noland-bushnell-invents-first-video-game-pong)
 
 #### Harold Cohen「AARON」(1973)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/harold-cohen-pioneers-ai-art-with-aaron.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/harold-cohen-pioneers-ai-art-with-aaron.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/harold-cohen-pioneers-ai-art-with-aaron.jpg" alt="Harold Cohen「AARON」(1973)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 画家のコーエンが名づけた、自律的に絵を描くプログラムです。前回見たとおり、コーエンと AARON の協働は約40年にわたって続きました。[→ Timeline](https://timeline.lerandom.art/m/harold-cohen-pioneers-ai-art-with-aaron)
 
 #### 第1回アルス・エレクトロニカ (1979)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-first-ars-electronica-festival-takes-place-in-linz-austria-a97cd877c2.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-first-ars-electronica-festival-takes-place-in-linz-austria-a97cd877c2.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-first-ars-electronica-festival-takes-place-in-linz-austria-a97cd877c2.jpg" alt="第1回アルス・エレクトロニカ (1979)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 オーストリアのリンツで始まった、メディアアートの祭典です。Herbert W. Franke も創設者のひとりで、現在も毎年開かれています。[→ Timeline](https://timeline.lerandom.art/m/the-first-ars-electronica-festival-takes-place-in-linz-austria)
 
@@ -306,49 +306,49 @@ Paglen は、AIが解決できる難しい問題はあるとしつつ、AIを動
 
 #### John Whitney『Digital Harmony』(1980)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/digital-harmony-on-the-complementarity-of-music-and-visual-art-by-john-whitney.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/digital-harmony-on-the-complementarity-of-music-and-visual-art-by-john-whitney.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/digital-harmony-on-the-complementarity-of-music-and-visual-art-by-john-whitney.jpg" alt="John Whitney『Digital Harmony』(1980)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 コンピュータ・アニメーションの先駆者ホイットニーが、音楽と視覚芸術の補い合う関係を論じた本です。映像の画面のための新しい芸術を構想しました。[→ Timeline](https://timeline.lerandom.art/m/digital-harmony-on-the-complementarity-of-music-and-visual-art-by-john-whitney)
 
 #### Nam June Paik「V-yramid」(1982)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/v-yramid-by-nam-june-paik.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/v-yramid-by-nam-june-paik.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/v-yramid-by-nam-june-paik.jpg" alt="Nam June Paik「V-yramid」(1982)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 40台のテレビをピラミッド状に積み上げた、パイク最大級のビデオ・インスタレーションです。ホイットニー美術館での回顧展のために制作されました。[→ Timeline](https://timeline.lerandom.art/m/v-yramid-by-nam-june-paik)
 
 #### ラングトンのアリ (1986)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/langton-s-ant.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/langton-s-ant.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/langton-s-ant.jpg" alt="ラングトンのアリ (1986)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 クリストファー・ラングトンが考案したセル・オートマトンです。単純な規則で動く「アリ」が、やがて予想もしない複雑な模様を生み出します。[→ Timeline](https://timeline.lerandom.art/m/langton-s-ant)
 
 #### Photoshop の開発 (1987)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/photoshop-developed-051231a36f.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/photoshop-developed-051231a36f.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/photoshop-developed-051231a36f.jpg" alt="Photoshop の開発 (1987)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 トーマスとジョンのノール兄弟が開発し、1989年に Adobe がライセンスを取得しました。誰もがコンピュータで画像を編集できるようにしたソフトです。[→ Timeline](https://timeline.lerandom.art/m/photoshop-developed)
 
 #### Adobe Illustrator の発売 (1987)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/adope-illustrator-developed-adfdeb0dfc.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/adope-illustrator-developed-adfdeb0dfc.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/adope-illustrator-developed-adfdeb0dfc.png" alt="Adobe Illustrator の発売 (1987)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 Macintosh 用のベクター・グラフィックスのソフトです。拡大しても劣化しないロゴやアイコン、イラストの制作を、デザインの現場に広めました。[→ Timeline](https://timeline.lerandom.art/m/adobe-illustrator-developed)
 
 #### 藤幡正樹「Geometric Love」(1987)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/geometric-love-by-masaki-fujihata.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/geometric-love-by-masaki-fujihata.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/geometric-love-by-masaki-fujihata.jpg" alt="藤幡正樹「Geometric Love」(1987)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 日本のコンピュータグラフィックスの歴史で重要な作品です。フランク・ポッパーの著書『Art of the Electronic Age』でも取り上げられました。[→ Timeline](https://timeline.lerandom.art/m/geometric-love-by-masaki-fujihata)
 
 #### World Wide Web の考案 (1989)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/tim-berners-lee-invents-the-world-wide-web.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/tim-berners-lee-invents-the-world-wide-web.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/tim-berners-lee-invents-the-world-wide-web.jpg" alt="World Wide Web の考案 (1989)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 CERN のティム・バーナーズ＝リーが、情報を分散して共有するしくみを提案しました。1990年末には、最初のブラウザ、サーバ、Webページを作っています。[→ Timeline](https://timeline.lerandom.art/m/tim-berners-lee-invents-the-world-wide-web)
 
 #### Jeffrey Shaw「The Legible City」(1989)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-legible-city-by-jeffrey-shaw.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-legible-city-by-jeffrey-shaw.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-legible-city-by-jeffrey-shaw.jpg" alt="Jeffrey Shaw「The Legible City」(1989)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 固定された自転車をこぐと、建物の代わりに文字が立ち並ぶ街を走り抜けられる、インタラクティブな作品です。名古屋で初めて公開されました。[→ Timeline](https://timeline.lerandom.art/m/the-legible-city-by-jeffrey-shaw)
 
@@ -358,37 +358,37 @@ CERN のティム・バーナーズ＝リーが、情報を分散して共有す
 
 #### Karl Sims「Panspermia」(1990)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/panspermia-by-karl-sims.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/panspermia-by-karl-sims.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/panspermia-by-karl-sims.jpg" alt="Karl Sims「Panspermia」(1990)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 人工進化で生まれた植物のような生命が、惑星から惑星へと増えていく映像作品です。機械学習を使うアートの先駆けともいえます。[→ Timeline](https://timeline.lerandom.art/m/panspermia-by-karl-sims)
 
 #### William Latham「The Evolution of Form」(1990)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-evolution-of-form-by-william-latham.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-evolution-of-form-by-william-latham.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-evolution-of-form-by-william-latham.jpg" alt="William Latham「The Evolution of Form」(1990)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 偶然の突然変異と作家の選択を組み合わせるシステム「Mutator」で、複雑な3Dの形を進化させました。IBM のチームとの共同制作です。[→ Timeline](https://timeline.lerandom.art/m/the-evolution-of-form-by-william-latham)
 
 #### World Wide Web の公開 (1991)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/world-wide-web-goes-public.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/world-wide-web-goes-public.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/world-wide-web-goes-public.jpg" alt="World Wide Web の公開 (1991)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 8月6日、バーナーズ＝リーが Web の概要をネット上に投稿し、誰でも使えるサービスとして公開されました。数年のうちにネット・アートが生まれます。[→ Timeline](https://timeline.lerandom.art/m/world-wide-web-goes-public)
 
 #### JODI「jodi.org」(1995)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/jodi-org-by-jodi.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/jodi-org-by-jodi.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/jodi-org-by-jodi.png" alt="JODI「jodi.org」(1995)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 画面が壊れたように見える Web サイトで、Webデザインの常識をくつがえしました。リンクは繰り返す画像の中に隠され、ネット・アートの先駆けとなりました。[→ Timeline](https://timeline.lerandom.art/m/jodi-org-by-jodi)
 
 #### Macromedia Flash 1.0 (1996)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/macromedia-flash-1-0-releaseda-bb06c337e6.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/macromedia-flash-1-0-releaseda-bb06c337e6.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/macromedia-flash-1-0-releaseda-bb06c337e6.png" alt="Macromedia Flash 1.0 (1996)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 Web で豊かなグラフィックスやアニメーションを可能にしたソフトです。Joshua Davis や中村勇吾らが、Web の上で動く生成的な表現を切り開きました。[→ Timeline](https://timeline.lerandom.art/m/macromedia-flash-1-0-releaseda)
 
 #### John Maeda『Design By Numbers』(1999)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-maeda-publishes-design-by-numbers-30b5326f53.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-maeda-publishes-design-by-numbers-30b5326f53.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/john-maeda-publishes-design-by-numbers-30b5326f53.jpg" alt="John Maeda『Design By Numbers』(1999)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 MIT メディアラボで、アーティストやデザイナーがプログラミングを学べるように作られた、シンプルな言語です。のちの Processing につながりました。[→ Timeline](https://timeline.lerandom.art/m/john-maeda-publishes-design-by-numbers)
 
@@ -398,37 +398,37 @@ Casey Reas と Ben Fry が Processing を開発し、世界中の誰もがクリ
 
 #### Processing の始まり (2001)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/casey-reas-and-ben-fry-initiate-processing-project-87087fbcc1.webp)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/casey-reas-and-ben-fry-initiate-processing-project-87087fbcc1.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/casey-reas-and-ben-fry-initiate-processing-project-87087fbcc1.webp" alt="Processing の始まり (2001)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 Casey Reas と Ben Fry が始めた、アーティストのためのオープンソースのプログラミング環境です。この章の「ツール時代」という名前の由来にもなりました。[→ Timeline](https://timeline.lerandom.art/m/casey-reas-and-ben-fry-initiate-processing-project)
 
 #### bitforms の開廊展 (2001)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/inaugural-exhibition-at-bitforms-casey-reass-first-public-exhibition.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/inaugural-exhibition-at-bitforms-casey-reass-first-public-exhibition.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/inaugural-exhibition-at-bitforms-casey-reass-first-public-exhibition.jpg" alt="bitforms の開廊展 (2001)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 テクノロジーと芸術を扱う、ニューヨークの画廊 bitforms の最初の展覧会です。Casey Reas にとって、初めての商業画廊での展示でした。[→ Timeline](https://timeline.lerandom.art/m/inaugural-exhibition-at-bitforms-casey-reass-first-public-exhibition)
 
 #### Cory Arcangel「Super Mario Clouds」(2002)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/super-mario-clouds-by-cory-arcangel.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/super-mario-clouds-by-cory-arcangel.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/super-mario-clouds-by-cory-arcangel.jpg" alt="Cory Arcangel「Super Mario Clouds」(2002)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 「スーパーマリオブラザーズ」のカートリッジを改造し、流れる雲以外のすべてを消した作品です。見慣れたゲームを、静かな風景に変えました。[→ Timeline](https://timeline.lerandom.art/m/super-mario-clouds-by-cory-arcangel)
 
 #### Casey Reas ほか「{Software} Structures」(2004)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/software-structures-by-casey-reas-jared-tarbell-robert-hodgin-and-william-ngan.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/software-structures-by-casey-reas-jared-tarbell-robert-hodgin-and-william-ngan.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/software-structures-by-casey-reas-jared-tarbell-robert-hodgin-and-william-ngan.jpg" alt="Casey Reas ほか「{Software} Structures」(2004)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ホイットニー美術館の委託作品です。Sol LeWitt の壁画のように、同じ言葉の指示を、複数の作家がそれぞれのプログラムで別々に表現しました。[→ Timeline](https://timeline.lerandom.art/m/software-structures-by-casey-reas-jared-tarbell-robert-hodgin-and-william-ngan)
 
 #### Casey Reas「Process」シリーズ (2004-2010)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/reas-begins-process-compendium-series-2004-2014.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/reas-begins-process-compendium-series-2004-2014.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/reas-begins-process-compendium-series-2004-2014.jpg" alt="Casey Reas「Process」シリーズ (2004-2010)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 形と振る舞いを組み合わせた単純な要素がたくさん動き、重なり合うことで、複雑な模様が自然に現れる (創発する) 様子を描いたシリーズです。[→ Timeline](https://timeline.lerandom.art/m/reas-begins-process-compendium-series-2004-2014)
 
 #### openFrameworks v0.01 (2005)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/zach-lieberman-releases-openframeworks-v0-01.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/zach-lieberman-releases-openframeworks-v0-01.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/zach-lieberman-releases-openframeworks-v0-01.png" alt="openFrameworks v0.01 (2005)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 Zach Lieberman が公開した、C++ でクリエイティブ・コーディングを行うためのオープンソースのツールキットです。[→ Timeline](https://timeline.lerandom.art/m/zach-lieberman-releases-openframeworks-v0-01)
 
@@ -438,25 +438,25 @@ AIの台頭と NFT の登場という2つの大きな変化が、生成芸術を
 
 #### Google「DeepDream」(2015)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/googles-alexander-mordvintsev-launches-deepdream.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/googles-alexander-mordvintsev-launches-deepdream.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/googles-alexander-mordvintsev-launches-deepdream.jpg" alt="Google「DeepDream」(2015)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ニューラルネットワークが画像の中に見いだしたパターンを強調し、幻覚のような画像を作りました。2015年は、AIアートが本格的に始まった年とされます。[→ Timeline](https://timeline.lerandom.art/m/googles-alexander-mordvintsev-launches-deepdream)
 
 #### クリスティーズで AI作品が初めて落札 (2018)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/christies-first-sale-of-an-ai-artwork.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/christies-first-sale-of-an-ai-artwork.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/christies-first-sale-of-an-ai-artwork.jpg" alt="クリスティーズで AI作品が初めて落札 (2018)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 Obvious の「Edmond de Belamy」が高額で落札されました。Robbie Barrat が公開していたコードを土台にしていたため、論争にもなりました。[→ Timeline](https://timeline.lerandom.art/m/christies-first-sale-of-an-ai-artwork)
 
 #### Refik Anadol「Machine Hallucination」(2019)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/machine-hallucination-by-refik-anadol.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/machine-hallucination-by-refik-anadol.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/machine-hallucination-by-refik-anadol.jpg" alt="Refik Anadol「Machine Hallucination」(2019)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 ニューヨークの建築の画像1億枚以上を機械学習で処理し、都市の記憶を没入型の空間に映し出しました。映像で見た「Unsupervised」へとつながる作品です。[→ Timeline](https://timeline.lerandom.art/m/machine-hallucination-by-refik-anadol)
 
 #### GPT-2 の発表 (2019)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/openai-releases-gpt2.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/openai-releases-gpt2.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/openai-releases-gpt2.png" alt="GPT-2 の発表 (2019)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 OpenAI による文章生成モデルです。小さな版がダウンロードできるようになり、詩人やアーティストによる、言葉の生成の実験が広がりました。[→ Timeline](https://timeline.lerandom.art/m/openai-releases-gpt2)
 
@@ -466,31 +466,31 @@ Art Blocks や fxhash などの生成芸術のプラットフォームが登場�
 
 #### DALL-E の発表 (2021)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/dall-e-launched-ef50b30637.png)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/dall-e-launched-ef50b30637.png" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/dall-e-launched-ef50b30637.png" alt="DALL-E の発表 (2021)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 OpenAI による、言葉から画像を生成するモデルです。ここから、DALL·E、Stable Diffusion、Midjourney へと続く、画像生成AIの競争が始まりました。[→ Timeline](https://timeline.lerandom.art/m/dall-e-launched)
 
 #### Beeple「Everydays: The First 5000 Days」(2021)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/everydays-the-first-5000-days-by-beeple-1cda185f79.jpeg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/everydays-the-first-5000-days-by-beeple-1cda185f79.jpeg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/everydays-the-first-5000-days-by-beeple-1cda185f79.jpeg" alt="Beeple「Everydays: The First 5000 Days」(2021)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 13年以上毎日制作した5000枚の画像をまとめた作品が、クリスティーズで約6,900万ドルで落札され、NFT ブームを加速させました。[→ Timeline](https://timeline.lerandom.art/m/everydays-the-first-5000-days-by-beeple)
 
 #### 潜在拡散モデル (2021)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/latent-diffusion-models-introduced.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/latent-diffusion-models-introduced.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/latent-diffusion-models-introduced.jpg" alt="潜在拡散モデル (2021)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 画像を「潜在空間」に圧縮してから拡散モデルで生成する手法です。計算が軽くなり、Stable Diffusion のように誰もが使える画像生成AIが可能になりました。[→ Timeline](https://timeline.lerandom.art/m/latent-diffusion-models-introduced)
 
 #### Anna Ridler「The Shell Record」(2021)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-shell-record-by-anna-ridler-ce58cdc3b3.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-shell-record-by-anna-ridler-ce58cdc3b3.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/the-shell-record-by-anna-ridler-ce58cdc3b3.jpg" alt="Anna Ridler「The Shell Record」(2021)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 テムズ川で集めた貝殻のデータセットで GAN を学習させた作品です。かつて通貨だった貝殻を通して、価値と交換の歴史を問いかけます。[→ Timeline](https://timeline.lerandom.art/m/the-shell-record-by-anna-ridler)
 
 #### GPT-4 の公開 (2023)
 
-![](https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/openai-releases-chatgpt-4.jpg)
+<a href="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/openai-releases-chatgpt-4.jpg" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/tado/geidai-ai/main/img/05_timeline/openai-releases-chatgpt-4.jpg" alt="GPT-4 の公開 (2023)" style="max-width:min(480px,100%);max-height:480px;width:auto;height:auto"></a>
 
 OpenAI の大規模言語モデルです。文章の生成や画像の理解などの能力が大きく向上し、創作の現場にも大きな影響を与えました。[→ Timeline](https://timeline.lerandom.art/m/openai-releases-chatgpt-4)
 
