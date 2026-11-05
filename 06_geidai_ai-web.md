@@ -16,7 +16,7 @@ categories: ["geidai-ai26"]
 
 ## スライド資料
 
-* [スライド資料 (PDF)]()
+* [スライド資料 (PDF)](https://drive.google.com/file/d/1VRvfkX6MCbgOzmhWYoi0gTVGbMKpcHBN/view?usp=sharing)
 
 ## 課題: 制約を排除してAIと作品を構想する
 
