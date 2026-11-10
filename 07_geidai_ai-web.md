@@ -21,7 +21,7 @@ categories: ["geidai-ai26"]
 
 ## スライド資料
 
-* [スライド資料 (PDF)]()
+* [スライド資料 (PDF)](https://drive.google.com/file/d/1gJPOPQuPLfpfYBew_JmPzMmsp9VaeEG7/view?usp=sharing)
 
 ## コーディングの題材: p5.js の簡単な紹介
 
