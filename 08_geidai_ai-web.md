@@ -16,7 +16,7 @@ categories: ["geidai-ai26"]
 
 ## スライド資料
 
-* [スライド資料 (PDF)]()
+* [スライド資料 (PDF)](https://drive.google.com/file/d/1m8PwCbGjEXTnrwsOV2rssa6qYehLjgkr/view?usp=sharing)
 
 ## AIと音楽の歩み
 
