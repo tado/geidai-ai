@@ -26,14 +26,39 @@ categories: ["geidai-ai26"]
 
 <small>画像出典: [Brian Eno - Reflection (Excerpt) [Official Visual] (YouTube)](https://youtu.be/fSofXKGpenQ) (Warp Records)</small>
 
-ブライアン・イーノ (Brian Eno) は、アンビエント・ミュージックの創始者として知られる音楽家です。イーノは1990年代から、作曲家が一つひとつの音を決めるのではなく、音の素材と規則を用意し、そのしくみに音楽を生み出させる **生成音楽 (Generative Music)** に取り組んできました。1996年には、パソコン用のソフトウェアで再生するたびに異なる音楽が流れる「Generative Music 1」を発表しています。
+ブライアン・イーノ (Brian Eno) は、アンビエント・ミュージックの創始者として知られる音楽家です。イーノは、作曲家が一つひとつの音を決めるのではなく、音の素材と規則を用意し、そのしくみに音楽を生み出させる **生成音楽 (Generative Music)** に、長く取り組んできました。
+
+その出発点の一つが、1975年に発表されたアルバム『[**Discreet Music**](https://open.spotify.com/album/7b67MKOwyj7mIcEVnoJSOG)』です。まだ音楽づくりにパソコンが使われていなかった時代に、イーノは、シンセサイザーとテープレコーダーを組み合わせて、**自動的に音楽が生まれ続けるしくみ** を作りました。シンセサイザー (EMS Synthi AKS) に内蔵されたシーケンサーが、長さの違う2つの短いフレーズをくり返し演奏します。その音は、イコライザーとエコーを通して、2台のテープレコーダーに送られます。1台目で録音したテープを2台目で再生し、その音を1台目に戻して重ねて録音するため、フレーズは少し遅れて何度も重なり合い、少しずつ薄れていきます。2つのフレーズは長さが違うので、その重なり方は、同じ形をくり返すことがありません。
+
+イーノがしたのは、このしくみを組み立てて動かすことでした。約30分のタイトル曲は、イーノが訪ねてきた人の相手をしているあいだにも、鳴り続けてできあがっていきました。イーノは、これを「まさに自動の音楽 (automatic music)」だったと振り返っています。アルバムのライナーノーツには、この装置の **図** が載っていて、音だけでなく、音を生み出すしくみそのものが作品の一部として示されています。
+
+![](https://lloydcontextualstudies.wordpress.com/wp-content/uploads/2014/05/eno-discreet-music.jpg)
+
+<small>画像出典: Brian Eno『Discreet Music』(Obscure, 1975) のライナーノーツ。下部が「Operational diagram for "Discreet Music"」。[lloydcontextualstudies](https://lloydcontextualstudies.wordpress.com/wp-content/uploads/2014/05/eno-discreet-music.jpg) 掲載のスキャン</small>
+
+図では、左のシンセサイザー (digital recall system) から出た音が、グラフィック・イコライザー (graphic equalizer)、エコー (echo unit) を通って、右の2台のテープレコーダーに入ります。左のテープレコーダーで録音 (record) したテープは、そのまま右のテープレコーダーで再生 (playback) され、その音が「delay return」の線で左に戻って、新しい音と重ねて録音されます。2台のあいだのテープの長さが、遅れの長さ (delay line) になります。イーノはライナーノーツで、この曲に楽譜があるとすれば、それはこの装置の図だと書いています。
+
+アルバムのB面には、もう一つの生成の試みとして「**パッヘルベルのカノンによる3つの変奏曲** (Three Variations on the Canon in D Major by Johann Pachelbel)」が収められています。演奏は、作曲家ギャヴィン・ブライアーズ (Gavin Bryars) が指揮する The Cockpit Ensemble です。イーノはライナーノーツで、ここでの「システム」は **指示を与えられた演奏者のグループ** で、「入力」はパッヘルベルのカノンの断片だと説明しています。A面ではテープの装置が担っていた役割を、B面では人間の演奏者と規則が担っているのです。
+
+どの変奏も、楽譜の短い部分 (2小節か4小節) を出発点に、各パートを入れ替えて、もとの楽譜にはない重なり方を生み出します。3曲には、それぞれ別の規則が与えられています。
+
+* 「Fullness of Wind」: 各奏者のテンポがだんだん遅くなり、その遅くなる割合は楽器の音の高さで決まります (低い楽器ほど遅くなる)。
+* 「French Catalogues」: 楽譜のほかの部分から集めた音やメロディを、テンポの指示とともにまとめて組み合わせます。
+* 「Brutal Ardour」: 各奏者は、互いに関係のある音の並びを演奏しますが、その長さがそれぞれ違うため、もとの関係はすぐに崩れていきます。
+
+「Brutal Ardour」の、長さの違うくり返しがずれていくしくみは、A面の2つのフレーズと同じ考え方です。なお、3曲の題名は、パイヤール室内管弦楽団によるカノンのレコードの、フランス語の解説を不正確に英訳した言葉からとられています。
+
+ライナーノーツには、もう一つのエピソードも書かれています。交通事故でベッドから動けなかったイーノは、友人が持ってきた18世紀のハープ音楽のレコードを、聴こえるか聴こえないかの小さな音で流すことになりました。それが、音楽を部屋の環境の一部として聴く、新しい聴き方に気づくきっかけになったといいます (この話には、友人本人による異論もあります)。この考えは、1978年の『Ambient 1: Music for Airports』で「アンビエント」と名づけられます。
+
+その後、イーノは1996年に、パソコン用のソフトウェアで再生するたびに異なる音楽が流れる「Generative Music 1」を発表しました。テープとシンセサイザーで組み立てていたしくみを、コンピュータのプログラムに置き換えたものといえます。
 
 2017年1月1日に発表された『Reflection』は、その延長にある作品です。アルバムとしては約54分の1曲ですが、同時に、長年の協力者 Peter Chilvers と開発したアプリ版も公開されました。アプリ版では、イーノが用意した音やフレーズと、その組み合わせ方の規則にしたがって、終わりなく変化し続ける音楽が流れます。時間帯によっても、曲の雰囲気が変わります。イーノは、こうした音楽をつくる作曲家を、すべてを設計する建築家ではなく、種をまき、育つのを見守る **庭師** にたとえています。
 
-これは、第4回の AARON と同じく、データから学習するAIではなく、**規則で生成するしくみ** です。第5回の生成芸術のタイムラインで見た流れが、音楽にもあることが分かります。
+『Discreet Music』のテープの装置も、『Reflection』のアプリも、第4回の AARON と同じく、データから学習するAIではなく、**規則で生成するしくみ** です。第5回の生成芸術のタイムラインで見た流れが、音楽にもあることが分かります。
 
 2024年には、イーノを描いたドキュメンタリー映画『Eno』(監督: Gary Hustwit) が公開されました。この映画は、Brendan Dawes と開発したソフトウェア「Brain One」(Brian Eno のアナグラム) が、インタビューや記録映像の場面を上映のたびに並べ直すため、**上映ごとに内容が変わります**。生成のしくみが、音楽から映画へと広がった例です。
 
+* [Wikipedia「Discreet Music」](https://en.wikipedia.org/wiki/Discreet_Music)
 * [Generative Music「Brian Eno: Reflection」](https://generativemusic.com/reflection.html)
 * [Mikiki「ブライアン・イーノ (Brian Eno) が『Reflection』で行う自己省察」](https://mikiki.tokyo.jp/articles/-/12953)
 * [Gary Hustwit「Eno」](https://www.hustwit.com/eno)
@@ -74,6 +99,10 @@ AIは、人間のDJがかけた曲を聴き、3つのニューラルネットワ
 <small>画像出典: [Serpentine「Holly Herndon & Mat Dryhurst: The Call」](https://www.serpentinegalleries.org/whats-on/holly-herndon-mat-dryhurst-the-call/)</small>
 
 2024年10月から2025年2月まで、ロンドンのサーペンタイン・ギャラリーで、Herndon と Dryhurst の展覧会「The Call」が開かれました。二人は、賛美歌や発声練習からなる「歌集」を作り、イギリス各地の **15の地域の合唱団** を訪ねて、その歌声を録音しました。そして、その録音から合唱のAIモデルを作り、展示室では、立体音響のなかで、来場者の声にAIの合唱が応える作品を発表しました。
+
+[![](https://img.youtube.com/vi/DNlr7olF6rE/maxresdefault.jpg)](https://www.youtube.com/watch?v=DNlr7olF6rE)
+
+<small>画像出典: [Holly Herndon and Mat Dryhurst: The Call | Serpentine (YouTube)](https://youtu.be/DNlr7olF6rE) (Serpentine)</small>
 
 この展覧会でとくに重視されたのは、**学習データの扱い方** です。録音したデータは、参加した合唱団が決めた条件にしたがってのみ、ほかの人に利用を許諾できる、というしくみが作られました。AIの学習に使われる人々が、自分たちの声の使われ方に関わることのできるモデルを、作品として示したのです。
 
@@ -167,6 +196,7 @@ MusicFX DJ では、楽器やジャンル、雰囲気を表す複数のプロン
 | 年 | 出来事 |
 | :--- | :--- |
 | 1957 | コンピュータで作曲した最初期の作品「イリアック組曲」、Max Mathews の MUSIC I (第5回) |
+| 1975 | ブライアン・イーノ『Discreet Music』、シンセサイザーとテープによる生成のしくみ |
 | 1996 | ブライアン・イーノが「Generative Music 1」を発表 |
 | 2016 | 「AI DJ Project」、Sony CSL の Flow Machines による「Daddy's Car」 |
 | 2017 | イーノ『Reflection』(1月)、Magenta が NSynth を発表 (4月) |

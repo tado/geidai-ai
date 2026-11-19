@@ -42,16 +42,75 @@ paginate: true
 
 ---
 
-## 規則から生まれる音楽: ブライアン・イーノ「Reflection」(2017)
+## 規則から生まれる音楽: ブライアン・イーノ
 
 - アンビエント・ミュージックの創始者として知られる音楽家
-- 1990年代から **生成音楽 (Generative Music)** に取り組む
+- 長く **生成音楽 (Generative Music)** に取り組む
   - 一つひとつの音ではなく、音の素材と規則を用意し、しくみに音楽を生み出させる
+  - 1975年『Discreet Music』: シンセサイザーとテープによる生成のしくみ
   - 1996年「Generative Music 1」: 再生するたびに異なる音楽が流れるソフトウェア
+  - 2017年『Reflection』: 終わりなく変化し続けるアプリ
 
-[![height:220](https://img.youtube.com/vi/fSofXKGpenQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=fSofXKGpenQ)
+[![height:200](https://img.youtube.com/vi/fSofXKGpenQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=fSofXKGpenQ)
 
 <!-- _footer: '[Brian Eno - Reflection (Excerpt) [Official Visual] (YouTube)](https://youtu.be/fSofXKGpenQ) (Warp Records)' -->
+
+---
+
+## コンピュータ以前の生成音楽: 『Discreet Music』(1975)
+
+- 音楽づくりにパソコンが使われていなかった時代の、**自動的に音楽が生まれ続けるしくみ**
+  - シンセサイザー (EMS Synthi AKS) のシーケンサーが、長さの違う2つの短いフレーズをくり返す
+  - イコライザーとエコーを通して、2台のテープレコーダーへ
+  - 1台目で録音したテープを2台目で再生し、1台目に戻して重ねて録音する
+  - フレーズは少し遅れて何度も重なり、少しずつ薄れていく
+  - 2つのフレーズの長さが違うので、同じ重なり方をくり返さない
+- イーノは、しくみを組み立てて動かすだけ
+  - 約30分の曲は、来客の相手をしているあいだにもできあがっていった
+  - 「まさに自動の音楽 (automatic music)」
+
+<!-- _footer: '[Brian Eno『Discreet Music』(Spotify)](https://open.spotify.com/album/7b67MKOwyj7mIcEVnoJSOG) / [Wikipedia「Discreet Music」](https://en.wikipedia.org/wiki/Discreet_Music)' -->
+
+---
+
+## 楽譜は装置の図
+
+- ライナーノーツの「Operational diagram」: シンセサイザー → イコライザー → エコー → 録音 (record) → 再生 (playback) → 「delay return」で録音に戻る
+- 2台のあいだのテープの長さが、遅れの長さ (delay line)
+- 「この曲に楽譜があるとすれば、それはこの装置の図」(イーノ)
+
+![height:300](https://lloydcontextualstudies.wordpress.com/wp-content/uploads/2014/05/eno-discreet-music.jpg)
+
+<!-- _footer: 'Brian Eno『Discreet Music』(Obscure, 1975) のライナーノーツ ([lloydcontextualstudies](https://lloydcontextualstudies.wordpress.com/wp-content/uploads/2014/05/eno-discreet-music.jpg) 掲載のスキャン)' -->
+
+---
+
+## B面: パッヘルベルのカノンによる3つの変奏曲
+
+- 演奏: The Cockpit Ensemble (指揮: ギャヴィン・ブライアーズ)
+- 「システム」は **指示を与えられた演奏者のグループ**、「入力」はカノンの断片
+  - A面のテープの装置の役割を、人間の演奏者と規則が担う
+  - 楽譜の2小節か4小節を出発点に、各パートを入れ替えて、楽譜にない重なりを生む
+- 3曲それぞれの規則
+  - 「Fullness of Wind」: テンポがだんだん遅くなる。遅くなる割合は音の高さで決まる (低いほど遅い)
+  - 「French Catalogues」: 楽譜のほかの部分から集めた音やメロディを、テンポの指示とともにまとめる
+  - 「Brutal Ardour」: 長さの違う音の並びが重なり、もとの関係がすぐに崩れる
+- 題名は、パイヤール室内管弦楽団のレコードのフランス語の解説を、不正確に英訳した言葉から
+
+<!-- _footer: 'Brian Eno『Discreet Music』(Obscure, 1975) のライナーノーツ / [Wikipedia「Discreet Music」](https://en.wikipedia.org/wiki/Discreet_Music)' -->
+
+---
+
+## 環境の一部として聴く音楽へ
+
+- ライナーノーツのエピソード
+  - 事故でベッドから動けなかったイーノは、18世紀のハープ音楽のレコードを、聴こえるか聴こえないかの小さな音で流すことになった
+  - 音楽を部屋の環境の一部として聴く、新しい聴き方に気づく (友人本人による異論もある)
+  - 1978年『Ambient 1: Music for Airports』で「アンビエント」と名づけられる
+- 1996年「Generative Music 1」
+  - テープとシンセサイザーで組み立てていたしくみを、コンピュータのプログラムに置き換えた
+
+<!-- _footer: '[Wikipedia「Discreet Music」](https://en.wikipedia.org/wiki/Discreet_Music)' -->
 
 ---
 
@@ -64,7 +123,7 @@ paginate: true
   - 時間帯によっても、曲の雰囲気が変わる
 - イーノは、こうした音楽をつくる作曲家を **庭師** にたとえる
   - すべてを設計する建築家ではなく、種をまき、育つのを見守る
-- データから学習するAIではなく、**規則で生成するしくみ**
+- 『Discreet Music』のテープの装置も、『Reflection』のアプリも、データから学習するAIではなく、**規則で生成するしくみ**
   - 第4回の AARON、第5回の生成芸術のタイムラインと同じ流れ
 
 <!-- _footer: '[Generative Music「Brian Eno: Reflection」](https://generativemusic.com/reflection.html) / [Mikiki](https://mikiki.tokyo.jp/articles/-/12953)' -->
@@ -317,6 +376,7 @@ paginate: true
 | 年 | 出来事 |
 | :--- | :--- |
 | 1957 | 最初期のコンピュータ作曲「イリアック組曲」、Max Mathews の MUSIC I (第5回) |
+| 1975 | ブライアン・イーノ『Discreet Music』、シンセサイザーとテープによる生成のしくみ |
 | 1996 | ブライアン・イーノ「Generative Music 1」 |
 | 2016 | 「AI DJ Project」、Sony CSL の Flow Machines による「Daddy's Car」 |
 | 2017 | イーノ『Reflection』(1月)、Magenta の NSynth (4月) |
